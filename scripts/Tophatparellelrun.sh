@@ -7,9 +7,10 @@ set -euo pipefail
 FASTQ_DIR="/media/sf_GroupA_University2026_Project/SRA/fastq"
 INDEX_BASE="/media/sf_GroupA_University2026_Project/Refrence_genes/GRCh38_index"
 OUT_BASE="/home/randolando/align"
+export WORKDIR="/home/randolando/tmp_tophat"
 
 # Default to 32 threads (can be overridden for target machine)
-TOTAL_CPUS="${TOTAL_CPUS:-32}"
+TOTAL_CPUS="${TOTAL_CPUS:-30}"
 
 #  Threads per TopHat2 process
 THREADS_PER_SAMPLE=6
@@ -57,6 +58,8 @@ run_one () {
   echo "=== Running $srr on $(hostname) ==="
   echo "R1=$r1"
   echo "R2=$r2"
+  
+    source $(conda info --base)/etc/profile.d/conda.sh && conda activate tophat2_py2
 
   #  Run TopHat2
   tophat2 -p "$THREADS_PER_SAMPLE" -o "$outdir" "$INDEX_BASE" "$r1" "$r2" \
