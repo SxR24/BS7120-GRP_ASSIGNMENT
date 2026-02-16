@@ -4,8 +4,8 @@ set -euo pipefail
 # Cufflinks batch processing
 
 # Input/Output paths
-ALIGN_DIR="/home/randolando/align"           # TopHat2 output directory
-GTF_FILE="/media/sf_GroupA_University2026_Project/Refrence_genes/gencode.v22.annotation.gtf"
+ALIGN_DIR="/home/randolando/tmp_tophat/"           # TopHat2 output directory
+GTF_FILE="/media/sf_GroupA_University2026_Project/Refrence_genes/gencode.v22.primary_assembly.annotation.gtf"
 WORKDIR="${WORKDIR:-/home/randolando/tmp_cufflinks}"
 
 # CPU allocation
@@ -73,6 +73,9 @@ run_cufflinks () {
   echo "=== Processing $srr on $(hostname) at $(date) ==="
   echo "BAM: $bam"
   
+   #  Set working env to python 3.6
+    source "$(conda info --base)/etc/profile.d/conda.sh" && conda activate py36
+
   # Run Cufflinks
   cufflinks \
     -p 3 \

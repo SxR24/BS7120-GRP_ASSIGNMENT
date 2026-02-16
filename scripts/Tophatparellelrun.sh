@@ -59,6 +59,7 @@ run_one () {
   echo "R1=$r1"
   echo "R2=$r2"
   
+   #  Set working env to python 2.7
     source $(conda info --base)/etc/profile.d/conda.sh && conda activate tophat2_py2
 
   #  Run TopHat2
