@@ -6,7 +6,7 @@ library(ggplot2)
 
 # Load the data
 raw <- read.table(
-  "/home/ngk6/Desktop/BS7120 Steered research project (Group)/GSE75140_hOrg.fetal.master.data.frame.txt",
+  "GSE75140_hOrg.fetal.master.data.frame.txt",
   header = TRUE,
   sep = "\t",
   check.names = FALSE,
@@ -150,7 +150,7 @@ p <- DimPlot(
 ) + ggtitle("t-SNE with 11 clusters (c1–c11)")
 
 print(p)
-ggsave("tsne_11clusters_clean.png", plot = p, width = 7.5, height = 6.5, dpi = 300)
+ggsave("tsne.png", plot = p, width = 7.5, height = 6.5, dpi = 300)
 
 # MARKERS
 markers <- FindAllMarkers(
