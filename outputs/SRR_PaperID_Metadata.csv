@@ -1,0 +1,735 @@
+"SRR","paper_id","type","stage","chip"
+"SRR2967100","whOrg1_B12_hOrg33d_c2","organoid","33d","chip2"
+"SRR2967101","whOrg1_B1_hOrg33d_c2","organoid","33d","chip2"
+"SRR2967102","whOrg1_B6_hOrg33d_c2","organoid","33d","chip2"
+"SRR2967103","whOrg1_B7_hOrg33d_c2","organoid","33d","chip2"
+"SRR2967104","whOrg1_C10_hOrg33d_c2","organoid","33d","chip2"
+"SRR2967105","whOrg1_C11_hOrg33d_c2","organoid","33d","chip2"
+"SRR2967106","whOrg1_C8_hOrg33d_c2","organoid","33d","chip2"
+"SRR2967107","whOrg1_D2_hOrg33d_c2","organoid","33d","chip2"
+"SRR2967108","whOrg1_F1_hOrg33d_c2","organoid","33d","chip2"
+"SRR2967109","whOrg1_F6_hOrg33d_c2","organoid","33d","chip2"
+"SRR2967110","whOrg1_G10_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967111","whOrg1_G11_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967112","whOrg1_G12_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967113","whOrg1_G1_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967114","whOrg1_G2_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967115","whOrg1_G3_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967116","whOrg1_G4_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967117","whOrg1_G5_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967118","whOrg1_G6_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967119","whOrg1_G6_hOrg33d_c2","organoid","33d","chip2"
+"SRR2967120","whOrg1_G7_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967121","whOrg1_G7_hOrg33d_c2","organoid","33d","chip2"
+"SRR2967122","whOrg1_G8_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967123","whOrg1_G8_hOrg33d_c2","organoid","33d","chip2"
+"SRR2967124","whOrg1_G9_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967125","whOrg1_H10_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967126","whOrg1_H11_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967127","whOrg1_H12_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967128","whOrg1_H1_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967129","whOrg1_H1_hOrg33d_c2","organoid","33d","chip2"
+"SRR2967130","whOrg1_H2_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967131","whOrg1_H2_hOrg33d_c2","organoid","33d","chip2"
+"SRR2967132","whOrg1_H3_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967133","whOrg1_H4_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967134","whOrg1_H5_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967135","whOrg1_H6_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967136","whOrg1_H6_hOrg33d_c2","organoid","33d","chip2"
+"SRR2967137","whOrg1_H7_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967138","whOrg1_H8_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967139","whOrg1_H9_hOrg33d_c1","organoid","33d","chip1"
+"SRR2967140","whOrg2_A10_hOrg35d","organoid",NA,NA
+"SRR2967141","whOrg2_A11_hOrg35d","organoid",NA,NA
+"SRR2967142","whOrg2_A1_hOrg35d","organoid",NA,NA
+"SRR2967143","whOrg2_A2_hOrg35d","organoid",NA,NA
+"SRR2967144","whOrg2_A3_hOrg35d","organoid",NA,NA
+"SRR2967145","whOrg2_A4_hOrg35d","organoid",NA,NA
+"SRR2967146","whOrg2_A5_hOrg35d","organoid",NA,NA
+"SRR2967147","whOrg2_A6_hOrg35d","organoid",NA,NA
+"SRR2967148","whOrg2_A7_hOrg35d","organoid",NA,NA
+"SRR2967149","whOrg2_A8_hOrg35d","organoid",NA,NA
+"SRR2967150","whOrg2_A9_hOrg35d","organoid",NA,NA
+"SRR2967151","whOrg2_B10_hOrg35d","organoid",NA,NA
+"SRR2967152","whOrg2_B11_hOrg35d","organoid",NA,NA
+"SRR2967153","whOrg2_B12_hOrg35d","organoid",NA,NA
+"SRR2967154","whOrg2_B1_hOrg35d","organoid",NA,NA
+"SRR2967155","whOrg2_B2_hOrg35d","organoid",NA,NA
+"SRR2967156","whOrg2_B3_hOrg35d","organoid",NA,NA
+"SRR2967157","whOrg2_B4_hOrg35d","organoid",NA,NA
+"SRR2967158","whOrg2_B5_hOrg35d","organoid",NA,NA
+"SRR2967159","whOrg2_B6_hOrg35d","organoid",NA,NA
+"SRR2967160","whOrg2_B7_hOrg35d","organoid",NA,NA
+"SRR2967161","whOrg2_B8_hOrg35d","organoid",NA,NA
+"SRR2967162","whOrg2_B9_hOrg35d","organoid",NA,NA
+"SRR2967163","whOrg2_C10_hOrg35d","organoid",NA,NA
+"SRR2967164","whOrg2_C11_hOrg35d","organoid",NA,NA
+"SRR2967165","whOrg2_C12_hOrg35d","organoid",NA,NA
+"SRR2967166","whOrg2_C1_hOrg35d","organoid",NA,NA
+"SRR2967167","whOrg2_C2_hOrg35d","organoid",NA,NA
+"SRR2967168","whOrg2_C3_hOrg35d","organoid",NA,NA
+"SRR2967169","whOrg2_C5_hOrg35d","organoid",NA,NA
+"SRR2967170","whOrg2_C6_hOrg35d","organoid",NA,NA
+"SRR2967171","whOrg2_C7_hOrg35d","organoid",NA,NA
+"SRR2967172","whOrg2_C8_hOrg35d","organoid",NA,NA
+"SRR2967173","whOrg2_C9_hOrg35d","organoid",NA,NA
+"SRR2967174","whOrg2_D11_hOrg35d","organoid",NA,NA
+"SRR2967175","whOrg2_D12_hOrg35d","organoid",NA,NA
+"SRR2967176","whOrg2_D1_hOrg35d","organoid",NA,NA
+"SRR2967177","whOrg2_D2_hOrg35d","organoid",NA,NA
+"SRR2967178","whOrg2_D3_hOrg35d","organoid",NA,NA
+"SRR2967179","whOrg2_D4_hOrg35d","organoid",NA,NA
+"SRR2967180","whOrg2_D5_hOrg35d","organoid",NA,NA
+"SRR2967181","whOrg2_D6_hOrg35d","organoid",NA,NA
+"SRR2967182","whOrg2_D7_hOrg35d","organoid",NA,NA
+"SRR2967183","whOrg2_D8_hOrg35d","organoid",NA,NA
+"SRR2967184","whOrg2_D9_hOrg35d","organoid",NA,NA
+"SRR2967185","whOrg2_E10_hOrg35d","organoid",NA,NA
+"SRR2967186","whOrg2_E11_hOrg35d","organoid",NA,NA
+"SRR2967187","whOrg2_E12_hOrg35d","organoid",NA,NA
+"SRR2967188","whOrg2_E1_hOrg35d","organoid",NA,NA
+"SRR2967189","whOrg2_E2_hOrg35d","organoid",NA,NA
+"SRR2967190","whOrg2_E3_hOrg35d","organoid",NA,NA
+"SRR2967191","whOrg2_E4_hOrg35d","organoid",NA,NA
+"SRR2967192","whOrg2_E5_hOrg35d","organoid",NA,NA
+"SRR2967193","whOrg2_E6_hOrg35d","organoid",NA,NA
+"SRR2967194","whOrg2_E7_hOrg35d","organoid",NA,NA
+"SRR2967195","whOrg2_E8_hOrg35d","organoid",NA,NA
+"SRR2967196","whOrg2_E9_hOrg35d","organoid",NA,NA
+"SRR2967197","whOrg2_F10_hOrg35d","organoid",NA,NA
+"SRR2967198","whOrg2_F11_hOrg35d","organoid",NA,NA
+"SRR2967199","whOrg2_F12_hOrg35d","organoid",NA,NA
+"SRR2967200","whOrg2_F2_hOrg35d","organoid",NA,NA
+"SRR2967201","whOrg2_F3_hOrg35d","organoid",NA,NA
+"SRR2967202","whOrg2_F4_hOrg35d","organoid",NA,NA
+"SRR2967203","whOrg2_F5_hOrg35d","organoid",NA,NA
+"SRR2967204","whOrg2_F6_hOrg35d","organoid",NA,NA
+"SRR2967205","whOrg2_F7_hOrg35d","organoid",NA,NA
+"SRR2967206","whOrg2_F8_hOrg35d","organoid",NA,NA
+"SRR2967207","whOrg2_F9_hOrg35d","organoid",NA,NA
+"SRR2967208","whOrg3_A10_hOrg37d","organoid",NA,NA
+"SRR2967209","whOrg3_A11_hOrg37d","organoid",NA,NA
+"SRR2967210","whOrg3_A12_hOrg37d","organoid",NA,NA
+"SRR2967211","whOrg3_A1_hOrg37d","organoid",NA,NA
+"SRR2967212","whOrg3_A2_hOrg37d","organoid",NA,NA
+"SRR2967213","whOrg3_A3_hOrg37d","organoid",NA,NA
+"SRR2967214","whOrg3_A4_hOrg37d","organoid",NA,NA
+"SRR2967215","whOrg3_A6_hOrg37d","organoid",NA,NA
+"SRR2967216","whOrg3_A7_hOrg37d","organoid",NA,NA
+"SRR2967217","whOrg3_A8_hOrg37d","organoid",NA,NA
+"SRR2967218","whOrg3_A9_hOrg37d","organoid",NA,NA
+"SRR2967219","whOrg3_B10_hOrg37d","organoid",NA,NA
+"SRR2967220","whOrg3_B11_hOrg37d","organoid",NA,NA
+"SRR2967221","whOrg3_B2_hOrg37d","organoid",NA,NA
+"SRR2967222","whOrg3_B3_hOrg37d","organoid",NA,NA
+"SRR2967223","whOrg3_B4_hOrg37d","organoid",NA,NA
+"SRR2967224","whOrg3_B5_hOrg37d","organoid",NA,NA
+"SRR2967225","whOrg3_B8_hOrg37d","organoid",NA,NA
+"SRR2967226","whOrg3_B9_hOrg37d","organoid",NA,NA
+"SRR2967227","whOrg3_C12_hOrg37d","organoid",NA,NA
+"SRR2967228","whOrg3_C1_hOrg37d","organoid",NA,NA
+"SRR2967229","whOrg3_C2_hOrg37d","organoid",NA,NA
+"SRR2967230","whOrg3_C3_hOrg37d","organoid",NA,NA
+"SRR2967231","whOrg3_C4_hOrg37d","organoid",NA,NA
+"SRR2967232","whOrg3_C5_hOrg37d","organoid",NA,NA
+"SRR2967233","whOrg3_C6_hOrg37d","organoid",NA,NA
+"SRR2967234","whOrg3_C7_hOrg37d","organoid",NA,NA
+"SRR2967235","whOrg3_C9_hOrg37d","organoid",NA,NA
+"SRR2967236","whOrg3_D11_hOrg37d","organoid",NA,NA
+"SRR2967237","whOrg3_D12_hOrg37d","organoid",NA,NA
+"SRR2967238","whOrg3_D1_hOrg37d","organoid",NA,NA
+"SRR2967239","whOrg3_D3_hOrg37d","organoid",NA,NA
+"SRR2967240","whOrg3_D4_hOrg37d","organoid",NA,NA
+"SRR2967241","whOrg3_D5_hOrg37d","organoid",NA,NA
+"SRR2967242","whOrg3_D7_hOrg37d","organoid",NA,NA
+"SRR2967243","whOrg3_D8_hOrg37d","organoid",NA,NA
+"SRR2967244","whOrg3_D9_hOrg37d","organoid",NA,NA
+"SRR2967245","whOrg3_E10_hOrg37d","organoid",NA,NA
+"SRR2967246","whOrg3_E11_hOrg37d","organoid",NA,NA
+"SRR2967247","whOrg3_E12_hOrg37d","organoid",NA,NA
+"SRR2967248","whOrg3_E1_hOrg37d","organoid",NA,NA
+"SRR2967249","whOrg3_E2_hOrg37d","organoid",NA,NA
+"SRR2967250","whOrg3_E3_hOrg37d","organoid",NA,NA
+"SRR2967251","whOrg3_E5_hOrg37d","organoid",NA,NA
+"SRR2967252","whOrg3_E6_hOrg37d","organoid",NA,NA
+"SRR2967253","whOrg3_E7_hOrg37d","organoid",NA,NA
+"SRR2967254","whOrg3_E8_hOrg37d","organoid",NA,NA
+"SRR2967255","whOrg3_E9_hOrg37d","organoid",NA,NA
+"SRR2967256","whOrg3_F10_hOrg37d","organoid",NA,NA
+"SRR2967257","whOrg3_F11_hOrg37d","organoid",NA,NA
+"SRR2967258","whOrg3_F12_hOrg37d","organoid",NA,NA
+"SRR2967259","whOrg3_F2_hOrg37d","organoid",NA,NA
+"SRR2967260","whOrg3_F3_hOrg37d","organoid",NA,NA
+"SRR2967261","whOrg3_F4_hOrg37d","organoid",NA,NA
+"SRR2967262","whOrg3_F5_hOrg37d","organoid",NA,NA
+"SRR2967263","whOrg3_F7_hOrg37d","organoid",NA,NA
+"SRR2967264","whOrg3_F9_hOrg37d","organoid",NA,NA
+"SRR2967265","whOrg3_G10_hOrg37d","organoid",NA,NA
+"SRR2967266","whOrg3_G11_hOrg37d","organoid",NA,NA
+"SRR2967267","whOrg3_G12_hOrg37d","organoid",NA,NA
+"SRR2967268","whOrg3_G2_hOrg37d","organoid",NA,NA
+"SRR2967269","whOrg3_G3_hOrg37d","organoid",NA,NA
+"SRR2967270","whOrg3_G5_hOrg37d","organoid",NA,NA
+"SRR2967271","whOrg3_G9_hOrg37d","organoid",NA,NA
+"SRR2967272","whOrg3_H10_hOrg37d","organoid",NA,NA
+"SRR2967273","whOrg3_H11_hOrg37d","organoid",NA,NA
+"SRR2967274","whOrg3_H12_hOrg37d","organoid",NA,NA
+"SRR2967275","whOrg3_H3_hOrg37d","organoid",NA,NA
+"SRR2967276","whOrg3_H4_hOrg37d","organoid",NA,NA
+"SRR2967277","whOrg3_H7_hOrg37d","organoid",NA,NA
+"SRR2967278","whOrg3_H8_hOrg37d","organoid",NA,NA
+"SRR2967279","whOrg4_A10_hOrg41d","organoid",NA,NA
+"SRR2967280","whOrg4_A1_hOrg41d","organoid",NA,NA
+"SRR2967281","whOrg4_A2_hOrg41d","organoid",NA,NA
+"SRR2967282","whOrg4_A3_hOrg41d","organoid",NA,NA
+"SRR2967283","whOrg4_A4_hOrg41d","organoid",NA,NA
+"SRR2967284","whOrg4_A5_hOrg41d","organoid",NA,NA
+"SRR2967285","whOrg4_A6_hOrg41d","organoid",NA,NA
+"SRR2967286","whOrg4_A7_hOrg41d","organoid",NA,NA
+"SRR2967287","whOrg4_A8_hOrg41d","organoid",NA,NA
+"SRR2967288","whOrg4_B10_hOrg41d","organoid",NA,NA
+"SRR2967289","whOrg4_B11_hOrg41d","organoid",NA,NA
+"SRR2967290","whOrg4_B1_hOrg41d","organoid",NA,NA
+"SRR2967291","whOrg4_B3_hOrg41d","organoid",NA,NA
+"SRR2967292","whOrg4_B4_hOrg41d","organoid",NA,NA
+"SRR2967293","whOrg4_B5_hOrg41d","organoid",NA,NA
+"SRR2967294","whOrg4_B6_hOrg41d","organoid",NA,NA
+"SRR2967295","whOrg4_B8_hOrg41d","organoid",NA,NA
+"SRR2967296","whOrg4_B9_hOrg41d","organoid",NA,NA
+"SRR2967297","whOrg4_C10_hOrg41d","organoid",NA,NA
+"SRR2967298","whOrg4_C12_hOrg41d","organoid",NA,NA
+"SRR2967299","whOrg4_C1_hOrg41d","organoid",NA,NA
+"SRR2967300","whOrg4_C2_hOrg41d","organoid",NA,NA
+"SRR2967301","whOrg4_C3_hOrg41d","organoid",NA,NA
+"SRR2967302","whOrg4_C5_hOrg41d","organoid",NA,NA
+"SRR2967303","whOrg4_C6_hOrg41d","organoid",NA,NA
+"SRR2967304","whOrg4_C7_hOrg41d","organoid",NA,NA
+"SRR2967305","whOrg4_C8_hOrg41d","organoid",NA,NA
+"SRR2967306","whOrg4_C9_hOrg41d","organoid",NA,NA
+"SRR2967307","whOrg4_D10_hOrg41d","organoid",NA,NA
+"SRR2967308","whOrg4_D11_hOrg41d","organoid",NA,NA
+"SRR2967309","whOrg4_D12_hOrg41d","organoid",NA,NA
+"SRR2967310","whOrg4_D1_hOrg41d","organoid",NA,NA
+"SRR2967311","whOrg4_D2_hOrg41d","organoid",NA,NA
+"SRR2967312","whOrg4_D3_hOrg41d","organoid",NA,NA
+"SRR2967313","whOrg4_D4_hOrg41d","organoid",NA,NA
+"SRR2967314","whOrg4_D5_hOrg41d","organoid",NA,NA
+"SRR2967315","whOrg4_D6_hOrg41d","organoid",NA,NA
+"SRR2967316","whOrg4_D7_hOrg41d","organoid",NA,NA
+"SRR2967317","whOrg4_D8_hOrg41d","organoid",NA,NA
+"SRR2967318","whOrg4_D9_hOrg41d","organoid",NA,NA
+"SRR2967319","whOrg4_E1_hOrg41d","organoid",NA,NA
+"SRR2967320","whOrg4_E2_hOrg41d","organoid",NA,NA
+"SRR2967321","whOrg4_E3_hOrg41d","organoid",NA,NA
+"SRR2967322","whOrg4_E4_hOrg41d","organoid",NA,NA
+"SRR2967323","whOrg4_E6_hOrg41d","organoid",NA,NA
+"SRR2967324","whOrg4_E7_hOrg41d","organoid",NA,NA
+"SRR2967325","whOrg4_E9_hOrg41d","organoid",NA,NA
+"SRR2967326","whOrg4_F10_hOrg41d","organoid",NA,NA
+"SRR2967327","whOrg4_F11_hOrg41d","organoid",NA,NA
+"SRR2967328","whOrg4_F12_hOrg41d","organoid",NA,NA
+"SRR2967329","whOrg4_F1_hOrg41d","organoid",NA,NA
+"SRR2967330","whOrg4_F2_hOrg41d","organoid",NA,NA
+"SRR2967331","whOrg4_F3_hOrg41d","organoid",NA,NA
+"SRR2967332","whOrg4_F4_hOrg41d","organoid",NA,NA
+"SRR2967333","whOrg4_F6_hOrg41d","organoid",NA,NA
+"SRR2967334","whOrg4_F7_hOrg41d","organoid",NA,NA
+"SRR2967335","whOrg4_F8_hOrg41d","organoid",NA,NA
+"SRR2967336","whOrg4_F9_hOrg41d","organoid",NA,NA
+"SRR2967337","whOrg4_G10_hOrg41d","organoid",NA,NA
+"SRR2967338","whOrg4_G11_hOrg41d","organoid",NA,NA
+"SRR2967339","whOrg4_G12_hOrg41d","organoid",NA,NA
+"SRR2967340","whOrg4_G1_hOrg41d","organoid",NA,NA
+"SRR2967341","whOrg4_G3_hOrg41d","organoid",NA,NA
+"SRR2967342","whOrg4_G4_hOrg41d","organoid",NA,NA
+"SRR2967343","whOrg4_G5_hOrg41d","organoid",NA,NA
+"SRR2967344","whOrg4_G7_hOrg41d","organoid",NA,NA
+"SRR2967345","whOrg4_G8_hOrg41d","organoid",NA,NA
+"SRR2967346","whOrg4_G9_hOrg41d","organoid",NA,NA
+"SRR2967347","whOrg4_H10_hOrg41d","organoid",NA,NA
+"SRR2967348","whOrg4_H2_hOrg41d","organoid",NA,NA
+"SRR2967349","whOrg4_H3_hOrg41d","organoid",NA,NA
+"SRR2967350","whOrg4_H4_hOrg41d","organoid",NA,NA
+"SRR2967351","whOrg4_H7_hOrg41d","organoid",NA,NA
+"SRR2967352","whOrg4_H8_hOrg41d","organoid",NA,NA
+"SRR2967353","whOrg5_A10_hOrg65d","organoid",NA,NA
+"SRR2967354","whOrg5_A11_hOrg65d","organoid",NA,NA
+"SRR2967355","whOrg5_A12_hOrg65d","organoid",NA,NA
+"SRR2967356","whOrg5_A1_hOrg65d","organoid",NA,NA
+"SRR2967357","whOrg5_A2_hOrg65d","organoid",NA,NA
+"SRR2967358","whOrg5_A4_hOrg65d","organoid",NA,NA
+"SRR2967359","whOrg5_A5_hOrg65d","organoid",NA,NA
+"SRR2967360","whOrg5_A6_hOrg65d","organoid",NA,NA
+"SRR2967361","whOrg5_A7_hOrg65d","organoid",NA,NA
+"SRR2967362","whOrg5_A8_hOrg65d","organoid",NA,NA
+"SRR2967363","whOrg5_A9_hOrg65d","organoid",NA,NA
+"SRR2967364","whOrg5_B10_hOrg65d","organoid",NA,NA
+"SRR2967365","whOrg5_B11_hOrg65d","organoid",NA,NA
+"SRR2967366","whOrg5_B12_hOrg65d","organoid",NA,NA
+"SRR2967367","whOrg5_B1_hOrg65d","organoid",NA,NA
+"SRR2967368","whOrg5_B3_hOrg65d","organoid",NA,NA
+"SRR2967369","whOrg5_B4_hOrg65d","organoid",NA,NA
+"SRR2967370","whOrg5_B5_hOrg65d","organoid",NA,NA
+"SRR2967371","whOrg5_B6_hOrg65d","organoid",NA,NA
+"SRR2967372","whOrg5_B7_hOrg65d","organoid",NA,NA
+"SRR2967373","whOrg5_B9_hOrg65d","organoid",NA,NA
+"SRR2967374","whOrg5_C10_hOrg65d","organoid",NA,NA
+"SRR2967375","whOrg5_C11_hOrg65d","organoid",NA,NA
+"SRR2967376","whOrg5_C12_hOrg65d","organoid",NA,NA
+"SRR2967377","whOrg5_C1_hOrg65d","organoid",NA,NA
+"SRR2967378","whOrg5_C2_hOrg65d","organoid",NA,NA
+"SRR2967379","whOrg5_C3_hOrg65d","organoid",NA,NA
+"SRR2967380","whOrg5_C4_hOrg65d","organoid",NA,NA
+"SRR2967381","whOrg5_C5_hOrg65d","organoid",NA,NA
+"SRR2967382","whOrg5_C6_hOrg65d","organoid",NA,NA
+"SRR2967383","whOrg5_C7_hOrg65d","organoid",NA,NA
+"SRR2967384","whOrg5_C8_hOrg65d","organoid",NA,NA
+"SRR2967385","whOrg5_C9_hOrg65d","organoid",NA,NA
+"SRR2967386","whOrg5_D10_hOrg65d","organoid",NA,NA
+"SRR2967387","whOrg5_D11_hOrg65d","organoid",NA,NA
+"SRR2967388","whOrg5_D12_hOrg65d","organoid",NA,NA
+"SRR2967389","whOrg5_D1_hOrg65d","organoid",NA,NA
+"SRR2967390","whOrg5_D2_hOrg65d","organoid",NA,NA
+"SRR2967391","whOrg5_D3_hOrg65d","organoid",NA,NA
+"SRR2967392","whOrg5_D4_hOrg65d","organoid",NA,NA
+"SRR2967393","whOrg5_D6_hOrg65d","organoid",NA,NA
+"SRR2967394","whOrg5_D7_hOrg65d","organoid",NA,NA
+"SRR2967395","whOrg5_D8_hOrg65d","organoid",NA,NA
+"SRR2967396","whOrg5_E10_hOrg65d","organoid",NA,NA
+"SRR2967397","whOrg5_E11_hOrg65d","organoid",NA,NA
+"SRR2967398","whOrg5_E2_hOrg65d","organoid",NA,NA
+"SRR2967399","whOrg5_E3_hOrg65d","organoid",NA,NA
+"SRR2967400","whOrg5_E4_hOrg65d","organoid",NA,NA
+"SRR2967401","whOrg5_E5_hOrg65d","organoid",NA,NA
+"SRR2967402","whOrg5_E8_hOrg65d","organoid",NA,NA
+"SRR2967403","whOrg5_E9_hOrg65d","organoid",NA,NA
+"SRR2967404","whOrg5_F10_hOrg65d","organoid",NA,NA
+"SRR2967405","whOrg5_F11_hOrg65d","organoid",NA,NA
+"SRR2967406","whOrg5_F12_hOrg65d","organoid",NA,NA
+"SRR2967407","whOrg5_F2_hOrg65d","organoid",NA,NA
+"SRR2967408","whOrg5_F3_hOrg65d","organoid",NA,NA
+"SRR2967409","whOrg5_F4_hOrg65d","organoid",NA,NA
+"SRR2967410","whOrg5_F5_hOrg65d","organoid",NA,NA
+"SRR2967411","whOrg5_F7_hOrg65d","organoid",NA,NA
+"SRR2967412","whOrg5_F8_hOrg65d","organoid",NA,NA
+"SRR2967413","whOrg5_F9_hOrg65d","organoid",NA,NA
+"SRR2967414","whOrg5_G10_hOrg65d","organoid",NA,NA
+"SRR2967415","whOrg5_G11_hOrg65d","organoid",NA,NA
+"SRR2967416","whOrg5_G12_hOrg65d","organoid",NA,NA
+"SRR2967417","whOrg5_G1_hOrg65d","organoid",NA,NA
+"SRR2967418","whOrg5_G2_hOrg65d","organoid",NA,NA
+"SRR2967419","whOrg5_G4_hOrg65d","organoid",NA,NA
+"SRR2967420","whOrg5_G5_hOrg65d","organoid",NA,NA
+"SRR2967421","whOrg5_G6_hOrg65d","organoid",NA,NA
+"SRR2967422","whOrg5_G7_hOrg65d","organoid",NA,NA
+"SRR2967423","whOrg5_G8_hOrg65d","organoid",NA,NA
+"SRR2967424","whOrg5_G9_hOrg65d","organoid",NA,NA
+"SRR2967425","whOrg5_H11_hOrg65d","organoid",NA,NA
+"SRR2967426","whOrg5_H12_hOrg65d","organoid",NA,NA
+"SRR2967427","whOrg5_H1_hOrg65d","organoid",NA,NA
+"SRR2967428","whOrg5_H3_hOrg65d","organoid",NA,NA
+"SRR2967429","whOrg5_H4_hOrg65d","organoid",NA,NA
+"SRR2967430","whOrg5_H6_hOrg65d","organoid",NA,NA
+"SRR2967431","whOrg5_H7_hOrg65d","organoid",NA,NA
+"SRR2967432","whOrg5_H9_hOrg65d","organoid",NA,NA
+"SRR2967433","mdOrg1_A10_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967434","mdOrg1_A12_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967435","mdOrg1_A3_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967436","mdOrg1_A4_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967437","mdOrg1_A6_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967438","mdOrg1_A8_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967439","mdOrg1_A9_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967440","mdOrg1_B11_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967441","mdOrg1_B12_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967442","mdOrg1_B1_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967443","mdOrg1_B5_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967444","mdOrg1_B7_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967445","mdOrg1_B8_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967446","mdOrg1_B9_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967447","mdOrg1_C12_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967448","mdOrg1_C1_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967449","mdOrg1_C2_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967450","mdOrg1_C5_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967451","mdOrg1_C6_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967452","mdOrg1_C7_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967453","mdOrg1_C8_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967454","mdOrg1_C9_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967455","mdOrg1_D3_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967456","mdOrg1_D9_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967457","mdOrg1_E10_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967458","mdOrg1_E11_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967459","mdOrg1_E12_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967460","mdOrg1_E1_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967461","mdOrg1_E3_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967462","mdOrg1_E4_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967463","mdOrg1_E5_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967464","mdOrg1_E7_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967465","mdOrg1_F10_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967466","mdOrg1_F11_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967467","mdOrg1_F1_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967468","mdOrg1_F4_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967469","mdOrg1_F8_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967470","mdOrg1_F9_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967471","mdOrg1_G11_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967472","mdOrg1_G12_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967473","mdOrg1_G4_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967474","mdOrg1_G5_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967475","mdOrg1_G6_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967476","mdOrg1_G7_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967477","mdOrg1_H1_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967478","mdOrg1_H3_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967479","mdOrg1_H7_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967480","mdOrg1_H9_hOrg_ESC_reg1_53d","organoid","53d",NA
+"SRR2967481","mdOrg2_A11_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967482","mdOrg2_A1_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967483","mdOrg2_A2_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967484","mdOrg2_A5_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967485","mdOrg2_A7_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967486","mdOrg2_B10_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967487","mdOrg2_B2_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967488","mdOrg2_B3_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967489","mdOrg2_B4_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967490","mdOrg2_B6_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967491","mdOrg2_C10_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967492","mdOrg2_C11_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967493","mdOrg2_C3_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967494","mdOrg2_C4_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967495","mdOrg2_D10_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967496","mdOrg2_D11_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967497","mdOrg2_D12_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967498","mdOrg2_D1_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967499","mdOrg2_D2_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967500","mdOrg2_D4_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967501","mdOrg2_D5_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967502","mdOrg2_D6_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967503","mdOrg2_D7_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967504","mdOrg2_D8_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967505","mdOrg2_E2_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967506","mdOrg2_E6_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967507","mdOrg2_E8_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967508","mdOrg2_E9_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967509","mdOrg2_F12_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967510","mdOrg2_F2_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967511","mdOrg2_F3_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967512","mdOrg2_F5_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967513","mdOrg2_F6_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967514","mdOrg2_F7_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967515","mdOrg2_G10_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967516","mdOrg2_G1_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967517","mdOrg2_G2_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967518","mdOrg2_G3_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967519","mdOrg2_G8_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967520","mdOrg2_G9_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967521","mdOrg2_H10_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967522","mdOrg2_H11_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967523","mdOrg2_H12_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967524","mdOrg2_H2_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967525","mdOrg2_H4_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967526","mdOrg2_H5_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967527","mdOrg2_H6_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967528","mdOrg2_H8_hOrg_ESC_reg2_53d","organoid","53d",NA
+"SRR2967529","mdOrg3_A10_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967530","mdOrg3_A5_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967531","mdOrg3_A8_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967532","mdOrg3_B10_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967533","mdOrg3_B11_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967534","mdOrg3_B12_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967535","mdOrg3_B1_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967536","mdOrg3_B2_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967537","mdOrg3_B3_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967538","mdOrg3_B5_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967539","mdOrg3_B8_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967540","mdOrg3_B9_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967541","mdOrg3_C11_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967542","mdOrg3_C12_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967543","mdOrg3_C1_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967544","mdOrg3_C4_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967545","mdOrg3_C5_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967546","mdOrg3_C6_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967547","mdOrg3_C7_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967548","mdOrg3_C8_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967549","mdOrg3_D10_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967550","mdOrg3_D11_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967551","mdOrg3_D8_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967552","mdOrg3_D9_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967553","mdOrg3_E2_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967554","mdOrg3_E3_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967555","mdOrg3_E4_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967556","mdOrg3_E5_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967557","mdOrg3_E7_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967558","mdOrg3_E8_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967559","mdOrg3_E9_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967560","mdOrg3_F10_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967561","mdOrg3_F1_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967562","mdOrg3_F3_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967563","mdOrg3_F7_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967564","mdOrg3_G12_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967565","mdOrg3_G3_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967566","mdOrg3_G4_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967567","mdOrg3_G9_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967568","mdOrg3_H10_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967569","mdOrg3_H11_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967570","mdOrg3_H12_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967571","mdOrg3_H9_hOrg_iPSC_reg3_58d","organoid",NA,NA
+"SRR2967572","mdOrg4_A11_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967573","mdOrg4_A1_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967574","mdOrg4_A4_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967575","mdOrg4_A6_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967576","mdOrg4_B10_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967577","mdOrg4_B12_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967578","mdOrg4_B2_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967579","mdOrg4_B4_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967580","mdOrg4_B8_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967581","mdOrg4_C11_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967582","mdOrg4_C12_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967583","mdOrg4_C4_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967584","mdOrg4_C7_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967585","mdOrg4_C8_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967586","mdOrg4_D12_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967587","mdOrg4_D4_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967588","mdOrg4_D7_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967589","mdOrg4_E10_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967590","mdOrg4_E2_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967591","mdOrg4_E3_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967592","mdOrg4_E5_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967593","mdOrg4_E6_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967594","mdOrg4_E9_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967595","mdOrg4_F10_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967596","mdOrg4_F12_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967597","mdOrg4_F5_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967598","mdOrg4_F8_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967599","mdOrg4_G10_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967600","mdOrg4_G12_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967601","mdOrg4_G4_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967602","mdOrg4_G7_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967603","mdOrg4_G8_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967604","mdOrg4_G9_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967605","mdOrg4_H11_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967606","mdOrg4_H3_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967607","mdOrg4_H9_hOrg_iPSC_reg4_58d","organoid",NA,NA
+"SRR2967608","fetal1_A10_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967609","fetal1_A11_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967610","fetal1_A12_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967611","fetal1_A1_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967612","fetal1_A2_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967613","fetal1_A3_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967614","fetal1_A4_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967615","fetal1_A5_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967616","fetal1_A6_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967617","fetal1_A7_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967618","fetal1_A8_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967619","fetal1_A9_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967620","fetal1_B10_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967621","fetal1_B11_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967622","fetal1_B12_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967623","fetal1_B1_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967624","fetal1_B2_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967625","fetal1_B3_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967626","fetal1_B4_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967627","fetal1_B5_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967628","fetal1_B6_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967629","fetal1_B7_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967630","fetal1_C10_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967631","fetal1_C12_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967632","fetal1_C1_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967633","fetal1_C2_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967634","fetal1_C3_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967635","fetal1_C4_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967636","fetal1_C6_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967637","fetal1_C9_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967638","fetal1_D10_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967639","fetal1_D11_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967640","fetal1_D12_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967641","fetal1_D1_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967642","fetal1_D2_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967643","fetal1_D4_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967644","fetal1_D5_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967645","fetal1_D6_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967646","fetal1_D7_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967647","fetal1_D8_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967648","fetal1_D9_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967649","fetal1_E10_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967650","fetal1_E12_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967651","fetal1_E1_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967652","fetal1_E3_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967653","fetal1_E5_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967654","fetal1_E6_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967655","fetal1_E7_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967656","fetal1_E8_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967657","fetal1_E9_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967658","fetal1_F10_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967659","fetal1_F11_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967660","fetal1_F12_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967661","fetal1_F1_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967662","fetal1_F2_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967663","fetal1_F3_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967664","fetal1_F4_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967665","fetal1_F7_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967666","fetal1_F8_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967667","fetal1_F9_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967668","fetal1_G10_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967669","fetal1_G11_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967670","fetal1_G12_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967671","fetal1_G1_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967672","fetal1_G2_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967673","fetal1_G3_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967674","fetal1_G4_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967675","fetal1_G5_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967676","fetal1_G6_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967677","fetal1_G7_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967678","fetal1_G8_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967679","fetal1_G9_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967680","fetal1_H10_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967681","fetal1_H11_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967682","fetal1_H12_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967683","fetal1_H2_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967684","fetal1_H3_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967685","fetal1_H5_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967686","fetal1_H6_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967687","fetal1_H7_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967688","fetal1_H8_fetal_12wpc_c1","fetal","12 wpc","chip1"
+"SRR2967689","fetal2_A10_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967690","fetal2_A11_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967691","fetal2_A12_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967692","fetal2_A1_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967693","fetal2_A2_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967694","fetal2_A3_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967695","fetal2_A4_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967696","fetal2_A5_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967697","fetal2_A6_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967698","fetal2_A7_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967699","fetal2_A8_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967700","fetal2_A9_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967701","fetal2_B10_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967702","fetal2_B11_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967703","fetal2_B1_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967704","fetal2_B2_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967705","fetal2_B3_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967706","fetal2_B5_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967707","fetal2_B6_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967708","fetal2_B7_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967709","fetal2_B8_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967710","fetal2_B9_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967711","fetal2_C11_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967712","fetal2_C12_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967713","fetal2_C1_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967714","fetal2_C2_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967715","fetal2_C3_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967716","fetal2_C4_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967717","fetal2_C5_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967718","fetal2_C7_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967719","fetal2_C8_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967720","fetal2_C9_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967721","fetal2_D10_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967722","fetal2_D11_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967723","fetal2_D12_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967724","fetal2_D1_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967725","fetal2_D2_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967726","fetal2_D3_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967727","fetal2_D4_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967728","fetal2_D5_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967729","fetal2_D6_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967730","fetal2_D7_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967731","fetal2_D8_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967732","fetal2_D9_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967733","fetal2_E11_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967734","fetal2_E12_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967735","fetal2_E1_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967736","fetal2_E2_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967737","fetal2_E3_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967738","fetal2_E4_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967739","fetal2_E5_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967740","fetal2_E6_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967741","fetal2_E7_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967742","fetal2_E8_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967743","fetal2_E9_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967744","fetal2_F12_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967745","fetal2_F1_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967746","fetal2_F2_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967747","fetal2_F3_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967748","fetal2_F4_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967749","fetal2_F5_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967750","fetal2_F6_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967751","fetal2_F7_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967752","fetal2_F9_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967753","fetal2_G11_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967754","fetal2_G12_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967755","fetal2_G1_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967756","fetal2_G2_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967757","fetal2_G3_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967758","fetal2_G4_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967759","fetal2_G5_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967760","fetal2_G6_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967761","fetal2_G7_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967762","fetal2_G9_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967763","fetal2_H11_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967764","fetal2_H12_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967765","fetal2_H1_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967766","fetal2_H2_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967767","fetal2_H4_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967768","fetal2_H5_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967769","fetal2_H6_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967770","fetal2_H7_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967771","fetal2_H8_fetal_12wpc_c2","fetal","12 wpc","chip2"
+"SRR2967772","fetal3_A12_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967773","fetal3_A4_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967774","fetal3_A6_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967775","fetal3_A7_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967776","fetal3_A8_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967777","fetal3_A9_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967778","fetal3_B10_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967779","fetal3_B11_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967780","fetal3_B12_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967781","fetal3_B2_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967782","fetal3_B3_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967783","fetal3_B5_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967784","fetal3_B6_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967785","fetal3_B7_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967786","fetal3_B8_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967787","fetal3_C10_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967788","fetal3_C11_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967789","fetal3_C12_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967790","fetal3_C4_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967791","fetal3_C5_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967792","fetal3_C7_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967793","fetal3_C9_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967794","fetal3_D10_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967795","fetal3_D2_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967796","fetal3_D3_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967797","fetal3_D4_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967798","fetal3_D8_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967799","fetal3_D9_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967800","fetal3_E10_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967801","fetal3_E11_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967802","fetal3_E1_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967803","fetal3_E2_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967804","fetal3_E3_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967805","fetal3_E4_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967806","fetal3_E5_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967807","fetal3_F10_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967808","fetal3_F11_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967809","fetal3_F1_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967810","fetal3_F2_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967811","fetal3_F3_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967812","fetal3_F5_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967813","fetal3_F6_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967814","fetal3_F7_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967815","fetal3_F8_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967816","fetal3_G10_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967817","fetal3_G11_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967818","fetal3_G1_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967819","fetal3_G2_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967820","fetal3_G5_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967821","fetal3_G6_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967822","fetal3_G7_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967823","fetal3_G8_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967824","fetal3_G9_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967825","fetal3_H11_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967826","fetal3_H1_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967827","fetal3_H2_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967828","fetal3_H4_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967829","fetal3_H5_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967830","fetal3_H6_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967831","fetal3_H7_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967832","fetal3_H8_fetal_13wpc","fetal","13 wpc",NA
+"SRR2967833","fetal3_H9_fetal_13wpc","fetal","13 wpc",NA
