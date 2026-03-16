@@ -1,220 +1,734 @@
-Cell	Cluster	Zone
-SRR2967608	1	iSVZ
-SRR2967609	1	VZ
-SRR2967610	1	iSVZ
-SRR2967611	2	VZ
-SRR2967612	3	VZ
-SRR2967613	3	VZ
-SRR2967614	3	VZ
-SRR2967615	3	VZ
-SRR2967616	3	VZ
-SRR2967617	3	VZ
-SRR2967618	3	VZ
-SRR2967619	2	VZ
-SRR2967620	3	VZ
-SRR2967621	2	VZ
-SRR2967622	1	VZ
-SRR2967623	3	VZ
-SRR2967624	3	VZ
-SRR2967625	3	VZ
-SRR2967626	3	VZ
-SRR2967627	2	VZ
-SRR2967629	2	VZ
-SRR2967630	2	VZ
-SRR2967631	3	VZ
-SRR2967632	3	VZ
-SRR2967633	3	VZ
-SRR2967634	4	VZ
-SRR2967635	2	VZ
-SRR2967636	1	iSVZ
-SRR2967637	5	VZ
-SRR2967638	1	VZ
-SRR2967639	2	VZ
-SRR2967640	2	VZ
-SRR2967641	3	VZ
-SRR2967642	1	VZ
-SRR2967643	3	VZ
-SRR2967644	2	VZ
-SRR2967646	2	VZ
-SRR2967647	5	VZ
-SRR2967648	2	VZ
-SRR2967649	2	VZ
-SRR2967650	1	VZ
-SRR2967651	1	VZ
-SRR2967652	3	VZ
-SRR2967653	1	VZ
-SRR2967654	1	VZ
-SRR2967655	3	iSVZ
-SRR2967656	1	iSVZ
-SRR2967657	2	iSVZ
-SRR2967659	3	VZ
-SRR2967660	2	iSVZ
-SRR2967661	2	VZ
-SRR2967662	2	iSVZ
-SRR2967663	2	VZ
-SRR2967664	1	iSVZ
-SRR2967665	5	CP
-SRR2967666	2	CP
-SRR2967667	1	CP
-SRR2967668	1	CP
-SRR2967669	1	CP
-SRR2967670	5	CP
-SRR2967671	5	CP
-SRR2967672	1	oSVZ
-SRR2967673	3	CP
-SRR2967674	1	CP
-SRR2967675	2	CP
-SRR2967676	3	oSVZ
-SRR2967677	2	CP
-SRR2967678	2	CP
-SRR2967679	1	oSVZ
-SRR2967680	1	CP
-SRR2967681	1	CP
-SRR2967682	5	oSVZ
-SRR2967683	5	oSVZ
-SRR2967684	1	oSVZ
-SRR2967685	3	oSVZ
-SRR2967686	1	oSVZ
-SRR2967687	1	oSVZ
-SRR2967688	2	oSVZ
-SRR2967689	2	oSVZ
-SRR2967690	1	oSVZ
-SRR2967691	1	oSVZ
-SRR2967692	2	CP
-SRR2967693	3	oSVZ
-SRR2967694	1	CP
-SRR2967695	3	oSVZ
-SRR2967697	1	oSVZ
-SRR2967698	3	oSVZ
-SRR2967699	2	oSVZ
-SRR2967700	3	oSVZ
-SRR2967701	3	oSVZ
-SRR2967702	1	oSVZ
-SRR2967703	1	oSVZ
-SRR2967705	3	oSVZ
-SRR2967706	5	oSVZ
-SRR2967707	1	iSVZ
-SRR2967708	2	iSVZ
-SRR2967709	3	oSVZ
-SRR2967710	2	iSVZ
-SRR2967711	1	oSVZ
-SRR2967712	3	oSVZ
-SRR2967713	3	oSVZ
-SRR2967714	2	oSVZ
-SRR2967715	2	oSVZ
-SRR2967716	1	oSVZ
-SRR2967717	1	oSVZ
-SRR2967718	5	oSVZ
-SRR2967719	5	oSVZ
-SRR2967720	1	CP
-SRR2967721	3	CP
-SRR2967722	2	CP
-SRR2967723	3	CP
-SRR2967724	2	CP
-SRR2967726	1	CP
-SRR2967727	1	CP
-SRR2967728	2	CP
-SRR2967729	1	CP
-SRR2967730	3	oSVZ
-SRR2967731	2	oSVZ
-SRR2967732	3	oSVZ
-SRR2967733	2	oSVZ
-SRR2967734	3	oSVZ
-SRR2967735	2	CP
-SRR2967736	2	oSVZ
-SRR2967737	1	CP
-SRR2967738	1	oSVZ
-SRR2967739	2	oSVZ
-SRR2967740	2	CP
-SRR2967741	3	CP
-SRR2967742	2	CP
-SRR2967743	2	CP
-SRR2967744	3	CP
-SRR2967745	1	oSVZ
-SRR2967746	2	CP
-SRR2967747	1	CP
-SRR2967748	6	CP
-SRR2967749	1	CP
-SRR2967750	3	oSVZ
-SRR2967751	3	oSVZ
-SRR2967752	1	CP
-SRR2967753	1	CP
-SRR2967754	5	oSVZ
-SRR2967755	1	oSVZ
-SRR2967756	3	CP
-SRR2967757	5	CP
-SRR2967758	1	CP
-SRR2967759	3	CP
-SRR2967760	2	CP
-SRR2967761	2	CP
-SRR2967762	3	CP
-SRR2967763	1	CP
-SRR2967764	2	CP
-SRR2967765	3	CP
-SRR2967766	1	CP
-SRR2967767	1	CP
-SRR2967768	5	CP
-SRR2967769	5	CP
-SRR2967770	3	CP
-SRR2967771	1	CP
-SRR2967772	7	CP
-SRR2967773	7	CP
-SRR2967774	7	CP
-SRR2967775	7	CP
-SRR2967776	7	CP
-SRR2967777	7	CP
-SRR2967778	2	CP
-SRR2967779	7	CP
-SRR2967780	7	CP
-SRR2967781	7	CP
-SRR2967782	3	CP
-SRR2967783	2	CP
-SRR2967784	7	CP
-SRR2967785	2	CP
-SRR2967786	7	CP
-SRR2967787	2	CP
-SRR2967788	7	CP
-SRR2967789	7	CP
-SRR2967790	7	CP
-SRR2967791	1	CP
-SRR2967792	7	CP
-SRR2967793	7	CP
-SRR2967794	2	CP
-SRR2967795	7	CP
-SRR2967796	7	CP
-SRR2967797	7	CP
-SRR2967798	7	CP
-SRR2967799	7	CP
-SRR2967800	7	CP
-SRR2967801	2	CP
-SRR2967802	7	CP
-SRR2967803	1	CP
-SRR2967804	7	CP
-SRR2967805	7	CP
-SRR2967806	7	CP
-SRR2967807	7	CP
-SRR2967808	7	CP
-SRR2967809	7	CP
-SRR2967810	2	CP
-SRR2967811	1	CP
-SRR2967813	1	CP
-SRR2967814	7	CP
-SRR2967815	1	CP
-SRR2967816	7	CP
-SRR2967817	7	CP
-SRR2967818	7	CP
-SRR2967819	7	CP
-SRR2967820	2	CP
-SRR2967821	1	CP
-SRR2967822	7	CP
-SRR2967823	7	CP
-SRR2967824	1	CP
-SRR2967825	2	CP
-SRR2967826	1	CP
-SRR2967827	1	CP
-SRR2967828	7	CP
-SRR2967829	1	CP
-SRR2967830	1	CP
-SRR2967831	1	CP
-SRR2967832	7	CP
-SRR2967833	7	CP
+	stage	tissue
+SRR2967100	33 days	Dissociated whole cerebral organoid
+SRR2967101	33 days	Dissociated whole cerebral organoid
+SRR2967102	33 days	Dissociated whole cerebral organoid
+SRR2967103	33 days	Dissociated whole cerebral organoid
+SRR2967104	33 days	Dissociated whole cerebral organoid
+SRR2967105	33 days	Dissociated whole cerebral organoid
+SRR2967106	33 days	Dissociated whole cerebral organoid
+SRR2967107	33 days	Dissociated whole cerebral organoid
+SRR2967108	33 days	Dissociated whole cerebral organoid
+SRR2967109	33 days	Dissociated whole cerebral organoid
+SRR2967110	33 days	Dissociated whole cerebral organoid
+SRR2967111	33 days	Dissociated whole cerebral organoid
+SRR2967112	33 days	Dissociated whole cerebral organoid
+SRR2967113	33 days	Dissociated whole cerebral organoid
+SRR2967114	33 days	Dissociated whole cerebral organoid
+SRR2967115	33 days	Dissociated whole cerebral organoid
+SRR2967116	33 days	Dissociated whole cerebral organoid
+SRR2967117	33 days	Dissociated whole cerebral organoid
+SRR2967118	33 days	Dissociated whole cerebral organoid
+SRR2967119	33 days	Dissociated whole cerebral organoid
+SRR2967120	33 days	Dissociated whole cerebral organoid
+SRR2967121	33 days	Dissociated whole cerebral organoid
+SRR2967122	33 days	Dissociated whole cerebral organoid
+SRR2967123	33 days	Dissociated whole cerebral organoid
+SRR2967124	33 days	Dissociated whole cerebral organoid
+SRR2967125	33 days	Dissociated whole cerebral organoid
+SRR2967126	33 days	Dissociated whole cerebral organoid
+SRR2967127	33 days	Dissociated whole cerebral organoid
+SRR2967128	33 days	Dissociated whole cerebral organoid
+SRR2967129	33 days	Dissociated whole cerebral organoid
+SRR2967130	33 days	Dissociated whole cerebral organoid
+SRR2967131	33 days	Dissociated whole cerebral organoid
+SRR2967132	33 days	Dissociated whole cerebral organoid
+SRR2967133	33 days	Dissociated whole cerebral organoid
+SRR2967134	33 days	Dissociated whole cerebral organoid
+SRR2967135	33 days	Dissociated whole cerebral organoid
+SRR2967136	33 days	Dissociated whole cerebral organoid
+SRR2967137	33 days	Dissociated whole cerebral organoid
+SRR2967138	33 days	Dissociated whole cerebral organoid
+SRR2967139	33 days	Dissociated whole cerebral organoid
+SRR2967140	35 days	Dissociated whole cerebral organoid
+SRR2967141	35 days	Dissociated whole cerebral organoid
+SRR2967142	35 days	Dissociated whole cerebral organoid
+SRR2967143	35 days	Dissociated whole cerebral organoid
+SRR2967144	35 days	Dissociated whole cerebral organoid
+SRR2967145	35 days	Dissociated whole cerebral organoid
+SRR2967146	35 days	Dissociated whole cerebral organoid
+SRR2967147	35 days	Dissociated whole cerebral organoid
+SRR2967148	35 days	Dissociated whole cerebral organoid
+SRR2967149	35 days	Dissociated whole cerebral organoid
+SRR2967150	35 days	Dissociated whole cerebral organoid
+SRR2967151	35 days	Dissociated whole cerebral organoid
+SRR2967152	35 days	Dissociated whole cerebral organoid
+SRR2967153	35 days	Dissociated whole cerebral organoid
+SRR2967154	35 days	Dissociated whole cerebral organoid
+SRR2967155	35 days	Dissociated whole cerebral organoid
+SRR2967156	35 days	Dissociated whole cerebral organoid
+SRR2967157	35 days	Dissociated whole cerebral organoid
+SRR2967158	35 days	Dissociated whole cerebral organoid
+SRR2967159	35 days	Dissociated whole cerebral organoid
+SRR2967160	35 days	Dissociated whole cerebral organoid
+SRR2967161	35 days	Dissociated whole cerebral organoid
+SRR2967162	35 days	Dissociated whole cerebral organoid
+SRR2967163	35 days	Dissociated whole cerebral organoid
+SRR2967164	35 days	Dissociated whole cerebral organoid
+SRR2967165	35 days	Dissociated whole cerebral organoid
+SRR2967166	35 days	Dissociated whole cerebral organoid
+SRR2967167	35 days	Dissociated whole cerebral organoid
+SRR2967168	35 days	Dissociated whole cerebral organoid
+SRR2967169	35 days	Dissociated whole cerebral organoid
+SRR2967170	35 days	Dissociated whole cerebral organoid
+SRR2967171	35 days	Dissociated whole cerebral organoid
+SRR2967172	35 days	Dissociated whole cerebral organoid
+SRR2967173	35 days	Dissociated whole cerebral organoid
+SRR2967174	35 days	Dissociated whole cerebral organoid
+SRR2967175	35 days	Dissociated whole cerebral organoid
+SRR2967176	35 days	Dissociated whole cerebral organoid
+SRR2967177	35 days	Dissociated whole cerebral organoid
+SRR2967178	35 days	Dissociated whole cerebral organoid
+SRR2967179	35 days	Dissociated whole cerebral organoid
+SRR2967180	35 days	Dissociated whole cerebral organoid
+SRR2967181	35 days	Dissociated whole cerebral organoid
+SRR2967182	35 days	Dissociated whole cerebral organoid
+SRR2967183	35 days	Dissociated whole cerebral organoid
+SRR2967184	35 days	Dissociated whole cerebral organoid
+SRR2967185	35 days	Dissociated whole cerebral organoid
+SRR2967186	35 days	Dissociated whole cerebral organoid
+SRR2967187	35 days	Dissociated whole cerebral organoid
+SRR2967188	35 days	Dissociated whole cerebral organoid
+SRR2967189	35 days	Dissociated whole cerebral organoid
+SRR2967190	35 days	Dissociated whole cerebral organoid
+SRR2967191	35 days	Dissociated whole cerebral organoid
+SRR2967192	35 days	Dissociated whole cerebral organoid
+SRR2967193	35 days	Dissociated whole cerebral organoid
+SRR2967194	35 days	Dissociated whole cerebral organoid
+SRR2967195	35 days	Dissociated whole cerebral organoid
+SRR2967196	35 days	Dissociated whole cerebral organoid
+SRR2967197	35 days	Dissociated whole cerebral organoid
+SRR2967198	35 days	Dissociated whole cerebral organoid
+SRR2967199	35 days	Dissociated whole cerebral organoid
+SRR2967200	35 days	Dissociated whole cerebral organoid
+SRR2967201	35 days	Dissociated whole cerebral organoid
+SRR2967202	35 days	Dissociated whole cerebral organoid
+SRR2967203	35 days	Dissociated whole cerebral organoid
+SRR2967204	35 days	Dissociated whole cerebral organoid
+SRR2967205	35 days	Dissociated whole cerebral organoid
+SRR2967206	35 days	Dissociated whole cerebral organoid
+SRR2967207	35 days	Dissociated whole cerebral organoid
+SRR2967208	37 days	Dissociated whole cerebral organoid
+SRR2967209	37 days	Dissociated whole cerebral organoid
+SRR2967210	37 days	Dissociated whole cerebral organoid
+SRR2967211	37 days	Dissociated whole cerebral organoid
+SRR2967212	37 days	Dissociated whole cerebral organoid
+SRR2967213	37 days	Dissociated whole cerebral organoid
+SRR2967214	37 days	Dissociated whole cerebral organoid
+SRR2967215	37 days	Dissociated whole cerebral organoid
+SRR2967216	37 days	Dissociated whole cerebral organoid
+SRR2967217	37 days	Dissociated whole cerebral organoid
+SRR2967218	37 days	Dissociated whole cerebral organoid
+SRR2967219	37 days	Dissociated whole cerebral organoid
+SRR2967220	37 days	Dissociated whole cerebral organoid
+SRR2967221	37 days	Dissociated whole cerebral organoid
+SRR2967222	37 days	Dissociated whole cerebral organoid
+SRR2967223	37 days	Dissociated whole cerebral organoid
+SRR2967224	37 days	Dissociated whole cerebral organoid
+SRR2967225	37 days	Dissociated whole cerebral organoid
+SRR2967226	37 days	Dissociated whole cerebral organoid
+SRR2967227	37 days	Dissociated whole cerebral organoid
+SRR2967228	37 days	Dissociated whole cerebral organoid
+SRR2967229	37 days	Dissociated whole cerebral organoid
+SRR2967230	37 days	Dissociated whole cerebral organoid
+SRR2967231	37 days	Dissociated whole cerebral organoid
+SRR2967232	37 days	Dissociated whole cerebral organoid
+SRR2967233	37 days	Dissociated whole cerebral organoid
+SRR2967234	37 days	Dissociated whole cerebral organoid
+SRR2967235	37 days	Dissociated whole cerebral organoid
+SRR2967236	37 days	Dissociated whole cerebral organoid
+SRR2967237	37 days	Dissociated whole cerebral organoid
+SRR2967238	37 days	Dissociated whole cerebral organoid
+SRR2967239	37 days	Dissociated whole cerebral organoid
+SRR2967240	37 days	Dissociated whole cerebral organoid
+SRR2967241	37 days	Dissociated whole cerebral organoid
+SRR2967242	37 days	Dissociated whole cerebral organoid
+SRR2967243	37 days	Dissociated whole cerebral organoid
+SRR2967244	37 days	Dissociated whole cerebral organoid
+SRR2967245	37 days	Dissociated whole cerebral organoid
+SRR2967246	37 days	Dissociated whole cerebral organoid
+SRR2967247	37 days	Dissociated whole cerebral organoid
+SRR2967248	37 days	Dissociated whole cerebral organoid
+SRR2967249	37 days	Dissociated whole cerebral organoid
+SRR2967250	37 days	Dissociated whole cerebral organoid
+SRR2967251	37 days	Dissociated whole cerebral organoid
+SRR2967252	37 days	Dissociated whole cerebral organoid
+SRR2967253	37 days	Dissociated whole cerebral organoid
+SRR2967254	37 days	Dissociated whole cerebral organoid
+SRR2967255	37 days	Dissociated whole cerebral organoid
+SRR2967256	37 days	Dissociated whole cerebral organoid
+SRR2967257	37 days	Dissociated whole cerebral organoid
+SRR2967258	37 days	Dissociated whole cerebral organoid
+SRR2967259	37 days	Dissociated whole cerebral organoid
+SRR2967260	37 days	Dissociated whole cerebral organoid
+SRR2967261	37 days	Dissociated whole cerebral organoid
+SRR2967262	37 days	Dissociated whole cerebral organoid
+SRR2967263	37 days	Dissociated whole cerebral organoid
+SRR2967264	37 days	Dissociated whole cerebral organoid
+SRR2967265	37 days	Dissociated whole cerebral organoid
+SRR2967266	37 days	Dissociated whole cerebral organoid
+SRR2967267	37 days	Dissociated whole cerebral organoid
+SRR2967268	37 days	Dissociated whole cerebral organoid
+SRR2967269	37 days	Dissociated whole cerebral organoid
+SRR2967270	37 days	Dissociated whole cerebral organoid
+SRR2967271	37 days	Dissociated whole cerebral organoid
+SRR2967272	37 days	Dissociated whole cerebral organoid
+SRR2967273	37 days	Dissociated whole cerebral organoid
+SRR2967274	37 days	Dissociated whole cerebral organoid
+SRR2967275	37 days	Dissociated whole cerebral organoid
+SRR2967276	37 days	Dissociated whole cerebral organoid
+SRR2967277	37 days	Dissociated whole cerebral organoid
+SRR2967278	37 days	Dissociated whole cerebral organoid
+SRR2967279	41 days	Dissociated whole cerebral organoid
+SRR2967280	41 days	Dissociated whole cerebral organoid
+SRR2967281	41 days	Dissociated whole cerebral organoid
+SRR2967282	41 days	Dissociated whole cerebral organoid
+SRR2967283	41 days	Dissociated whole cerebral organoid
+SRR2967284	41 days	Dissociated whole cerebral organoid
+SRR2967285	41 days	Dissociated whole cerebral organoid
+SRR2967286	41 days	Dissociated whole cerebral organoid
+SRR2967287	41 days	Dissociated whole cerebral organoid
+SRR2967288	41 days	Dissociated whole cerebral organoid
+SRR2967289	41 days	Dissociated whole cerebral organoid
+SRR2967290	41 days	Dissociated whole cerebral organoid
+SRR2967291	41 days	Dissociated whole cerebral organoid
+SRR2967292	41 days	Dissociated whole cerebral organoid
+SRR2967293	41 days	Dissociated whole cerebral organoid
+SRR2967294	41 days	Dissociated whole cerebral organoid
+SRR2967295	41 days	Dissociated whole cerebral organoid
+SRR2967296	41 days	Dissociated whole cerebral organoid
+SRR2967297	41 days	Dissociated whole cerebral organoid
+SRR2967298	41 days	Dissociated whole cerebral organoid
+SRR2967299	41 days	Dissociated whole cerebral organoid
+SRR2967300	41 days	Dissociated whole cerebral organoid
+SRR2967301	41 days	Dissociated whole cerebral organoid
+SRR2967302	41 days	Dissociated whole cerebral organoid
+SRR2967303	41 days	Dissociated whole cerebral organoid
+SRR2967304	41 days	Dissociated whole cerebral organoid
+SRR2967305	41 days	Dissociated whole cerebral organoid
+SRR2967306	41 days	Dissociated whole cerebral organoid
+SRR2967307	41 days	Dissociated whole cerebral organoid
+SRR2967308	41 days	Dissociated whole cerebral organoid
+SRR2967309	41 days	Dissociated whole cerebral organoid
+SRR2967310	41 days	Dissociated whole cerebral organoid
+SRR2967311	41 days	Dissociated whole cerebral organoid
+SRR2967312	41 days	Dissociated whole cerebral organoid
+SRR2967313	41 days	Dissociated whole cerebral organoid
+SRR2967314	41 days	Dissociated whole cerebral organoid
+SRR2967315	41 days	Dissociated whole cerebral organoid
+SRR2967316	41 days	Dissociated whole cerebral organoid
+SRR2967317	41 days	Dissociated whole cerebral organoid
+SRR2967318	41 days	Dissociated whole cerebral organoid
+SRR2967319	41 days	Dissociated whole cerebral organoid
+SRR2967320	41 days	Dissociated whole cerebral organoid
+SRR2967321	41 days	Dissociated whole cerebral organoid
+SRR2967322	41 days	Dissociated whole cerebral organoid
+SRR2967323	41 days	Dissociated whole cerebral organoid
+SRR2967324	41 days	Dissociated whole cerebral organoid
+SRR2967325	41 days	Dissociated whole cerebral organoid
+SRR2967326	41 days	Dissociated whole cerebral organoid
+SRR2967327	41 days	Dissociated whole cerebral organoid
+SRR2967328	41 days	Dissociated whole cerebral organoid
+SRR2967329	41 days	Dissociated whole cerebral organoid
+SRR2967330	41 days	Dissociated whole cerebral organoid
+SRR2967331	41 days	Dissociated whole cerebral organoid
+SRR2967332	41 days	Dissociated whole cerebral organoid
+SRR2967333	41 days	Dissociated whole cerebral organoid
+SRR2967334	41 days	Dissociated whole cerebral organoid
+SRR2967335	41 days	Dissociated whole cerebral organoid
+SRR2967336	41 days	Dissociated whole cerebral organoid
+SRR2967337	41 days	Dissociated whole cerebral organoid
+SRR2967338	41 days	Dissociated whole cerebral organoid
+SRR2967339	41 days	Dissociated whole cerebral organoid
+SRR2967340	41 days	Dissociated whole cerebral organoid
+SRR2967341	41 days	Dissociated whole cerebral organoid
+SRR2967342	41 days	Dissociated whole cerebral organoid
+SRR2967343	41 days	Dissociated whole cerebral organoid
+SRR2967344	41 days	Dissociated whole cerebral organoid
+SRR2967345	41 days	Dissociated whole cerebral organoid
+SRR2967346	41 days	Dissociated whole cerebral organoid
+SRR2967347	41 days	Dissociated whole cerebral organoid
+SRR2967348	41 days	Dissociated whole cerebral organoid
+SRR2967349	41 days	Dissociated whole cerebral organoid
+SRR2967350	41 days	Dissociated whole cerebral organoid
+SRR2967351	41 days	Dissociated whole cerebral organoid
+SRR2967352	41 days	Dissociated whole cerebral organoid
+SRR2967353	65 days	Dissociated whole cerebral organoid
+SRR2967354	65 days	Dissociated whole cerebral organoid
+SRR2967355	65 days	Dissociated whole cerebral organoid
+SRR2967356	65 days	Dissociated whole cerebral organoid
+SRR2967357	65 days	Dissociated whole cerebral organoid
+SRR2967358	65 days	Dissociated whole cerebral organoid
+SRR2967359	65 days	Dissociated whole cerebral organoid
+SRR2967360	65 days	Dissociated whole cerebral organoid
+SRR2967361	65 days	Dissociated whole cerebral organoid
+SRR2967362	65 days	Dissociated whole cerebral organoid
+SRR2967363	65 days	Dissociated whole cerebral organoid
+SRR2967364	65 days	Dissociated whole cerebral organoid
+SRR2967365	65 days	Dissociated whole cerebral organoid
+SRR2967366	65 days	Dissociated whole cerebral organoid
+SRR2967367	65 days	Dissociated whole cerebral organoid
+SRR2967368	65 days	Dissociated whole cerebral organoid
+SRR2967369	65 days	Dissociated whole cerebral organoid
+SRR2967370	65 days	Dissociated whole cerebral organoid
+SRR2967371	65 days	Dissociated whole cerebral organoid
+SRR2967372	65 days	Dissociated whole cerebral organoid
+SRR2967373	65 days	Dissociated whole cerebral organoid
+SRR2967374	65 days	Dissociated whole cerebral organoid
+SRR2967375	65 days	Dissociated whole cerebral organoid
+SRR2967376	65 days	Dissociated whole cerebral organoid
+SRR2967377	65 days	Dissociated whole cerebral organoid
+SRR2967378	65 days	Dissociated whole cerebral organoid
+SRR2967379	65 days	Dissociated whole cerebral organoid
+SRR2967380	65 days	Dissociated whole cerebral organoid
+SRR2967381	65 days	Dissociated whole cerebral organoid
+SRR2967382	65 days	Dissociated whole cerebral organoid
+SRR2967383	65 days	Dissociated whole cerebral organoid
+SRR2967384	65 days	Dissociated whole cerebral organoid
+SRR2967385	65 days	Dissociated whole cerebral organoid
+SRR2967386	65 days	Dissociated whole cerebral organoid
+SRR2967387	65 days	Dissociated whole cerebral organoid
+SRR2967388	65 days	Dissociated whole cerebral organoid
+SRR2967389	65 days	Dissociated whole cerebral organoid
+SRR2967390	65 days	Dissociated whole cerebral organoid
+SRR2967391	65 days	Dissociated whole cerebral organoid
+SRR2967392	65 days	Dissociated whole cerebral organoid
+SRR2967393	65 days	Dissociated whole cerebral organoid
+SRR2967394	65 days	Dissociated whole cerebral organoid
+SRR2967395	65 days	Dissociated whole cerebral organoid
+SRR2967396	65 days	Dissociated whole cerebral organoid
+SRR2967397	65 days	Dissociated whole cerebral organoid
+SRR2967398	65 days	Dissociated whole cerebral organoid
+SRR2967399	65 days	Dissociated whole cerebral organoid
+SRR2967400	65 days	Dissociated whole cerebral organoid
+SRR2967401	65 days	Dissociated whole cerebral organoid
+SRR2967402	65 days	Dissociated whole cerebral organoid
+SRR2967403	65 days	Dissociated whole cerebral organoid
+SRR2967404	65 days	Dissociated whole cerebral organoid
+SRR2967405	65 days	Dissociated whole cerebral organoid
+SRR2967406	65 days	Dissociated whole cerebral organoid
+SRR2967407	65 days	Dissociated whole cerebral organoid
+SRR2967408	65 days	Dissociated whole cerebral organoid
+SRR2967409	65 days	Dissociated whole cerebral organoid
+SRR2967410	65 days	Dissociated whole cerebral organoid
+SRR2967411	65 days	Dissociated whole cerebral organoid
+SRR2967412	65 days	Dissociated whole cerebral organoid
+SRR2967413	65 days	Dissociated whole cerebral organoid
+SRR2967414	65 days	Dissociated whole cerebral organoid
+SRR2967415	65 days	Dissociated whole cerebral organoid
+SRR2967416	65 days	Dissociated whole cerebral organoid
+SRR2967417	65 days	Dissociated whole cerebral organoid
+SRR2967418	65 days	Dissociated whole cerebral organoid
+SRR2967419	65 days	Dissociated whole cerebral organoid
+SRR2967420	65 days	Dissociated whole cerebral organoid
+SRR2967421	65 days	Dissociated whole cerebral organoid
+SRR2967422	65 days	Dissociated whole cerebral organoid
+SRR2967423	65 days	Dissociated whole cerebral organoid
+SRR2967424	65 days	Dissociated whole cerebral organoid
+SRR2967425	65 days	Dissociated whole cerebral organoid
+SRR2967426	65 days	Dissociated whole cerebral organoid
+SRR2967427	65 days	Dissociated whole cerebral organoid
+SRR2967428	65 days	Dissociated whole cerebral organoid
+SRR2967429	65 days	Dissociated whole cerebral organoid
+SRR2967430	65 days	Dissociated whole cerebral organoid
+SRR2967431	65 days	Dissociated whole cerebral organoid
+SRR2967432	65 days	Dissociated whole cerebral organoid
+SRR2967433	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967434	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967435	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967436	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967437	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967438	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967439	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967440	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967441	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967442	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967443	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967444	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967445	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967446	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967447	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967448	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967449	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967450	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967451	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967452	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967453	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967454	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967455	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967456	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967457	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967458	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967459	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967460	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967461	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967462	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967463	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967464	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967465	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967466	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967467	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967468	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967469	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967470	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967471	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967472	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967473	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967474	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967475	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967476	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967477	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967478	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967479	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967480	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967481	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967482	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967483	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967484	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967485	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967486	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967487	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967488	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967489	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967490	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967491	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967492	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967493	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967494	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967495	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967496	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967497	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967498	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967499	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967500	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967501	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967502	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967503	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967504	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967505	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967506	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967507	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967508	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967509	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967510	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967511	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967512	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967513	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967514	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967515	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967516	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967517	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967518	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967519	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967520	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967521	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967522	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967523	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967524	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967525	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967526	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967527	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967528	53 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967529	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967530	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967531	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967532	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967533	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967534	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967535	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967536	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967537	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967538	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967539	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967540	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967541	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967542	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967543	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967544	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967545	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967546	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967547	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967548	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967549	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967550	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967551	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967552	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967553	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967554	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967555	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967556	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967557	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967558	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967559	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967560	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967561	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967562	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967563	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967564	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967565	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967566	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967567	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967568	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967569	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967570	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967571	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967572	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967573	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967574	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967575	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967576	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967577	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967578	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967579	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967580	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967581	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967582	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967583	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967584	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967585	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967586	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967587	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967588	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967589	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967590	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967591	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967592	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967593	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967594	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967595	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967596	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967597	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967598	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967599	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967600	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967601	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967602	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967603	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967604	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967605	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967606	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967607	58 days	Microdissected cortical-like ventricle from cerebral organoid
+SRR2967608	12 weeks post-conception	Fetal neocortex
+SRR2967609	12 weeks post-conception	Fetal neocortex
+SRR2967610	12 weeks post-conception	Fetal neocortex
+SRR2967611	12 weeks post-conception	Fetal neocortex
+SRR2967612	12 weeks post-conception	Fetal neocortex
+SRR2967613	12 weeks post-conception	Fetal neocortex
+SRR2967614	12 weeks post-conception	Fetal neocortex
+SRR2967615	12 weeks post-conception	Fetal neocortex
+SRR2967616	12 weeks post-conception	Fetal neocortex
+SRR2967617	12 weeks post-conception	Fetal neocortex
+SRR2967618	12 weeks post-conception	Fetal neocortex
+SRR2967619	12 weeks post-conception	Fetal neocortex
+SRR2967620	12 weeks post-conception	Fetal neocortex
+SRR2967621	12 weeks post-conception	Fetal neocortex
+SRR2967622	12 weeks post-conception	Fetal neocortex
+SRR2967623	12 weeks post-conception	Fetal neocortex
+SRR2967624	12 weeks post-conception	Fetal neocortex
+SRR2967625	12 weeks post-conception	Fetal neocortex
+SRR2967626	12 weeks post-conception	Fetal neocortex
+SRR2967627	12 weeks post-conception	Fetal neocortex
+SRR2967628	12 weeks post-conception	Fetal neocortex
+SRR2967629	12 weeks post-conception	Fetal neocortex
+SRR2967630	12 weeks post-conception	Fetal neocortex
+SRR2967631	12 weeks post-conception	Fetal neocortex
+SRR2967632	12 weeks post-conception	Fetal neocortex
+SRR2967633	12 weeks post-conception	Fetal neocortex
+SRR2967634	12 weeks post-conception	Fetal neocortex
+SRR2967635	12 weeks post-conception	Fetal neocortex
+SRR2967636	12 weeks post-conception	Fetal neocortex
+SRR2967637	12 weeks post-conception	Fetal neocortex
+SRR2967638	12 weeks post-conception	Fetal neocortex
+SRR2967639	12 weeks post-conception	Fetal neocortex
+SRR2967640	12 weeks post-conception	Fetal neocortex
+SRR2967641	12 weeks post-conception	Fetal neocortex
+SRR2967642	12 weeks post-conception	Fetal neocortex
+SRR2967643	12 weeks post-conception	Fetal neocortex
+SRR2967644	12 weeks post-conception	Fetal neocortex
+SRR2967645	12 weeks post-conception	Fetal neocortex
+SRR2967646	12 weeks post-conception	Fetal neocortex
+SRR2967647	12 weeks post-conception	Fetal neocortex
+SRR2967648	12 weeks post-conception	Fetal neocortex
+SRR2967649	12 weeks post-conception	Fetal neocortex
+SRR2967650	12 weeks post-conception	Fetal neocortex
+SRR2967651	12 weeks post-conception	Fetal neocortex
+SRR2967652	12 weeks post-conception	Fetal neocortex
+SRR2967653	12 weeks post-conception	Fetal neocortex
+SRR2967654	12 weeks post-conception	Fetal neocortex
+SRR2967655	12 weeks post-conception	Fetal neocortex
+SRR2967656	12 weeks post-conception	Fetal neocortex
+SRR2967657	12 weeks post-conception	Fetal neocortex
+SRR2967658	12 weeks post-conception	Fetal neocortex
+SRR2967659	12 weeks post-conception	Fetal neocortex
+SRR2967660	12 weeks post-conception	Fetal neocortex
+SRR2967661	12 weeks post-conception	Fetal neocortex
+SRR2967662	12 weeks post-conception	Fetal neocortex
+SRR2967663	12 weeks post-conception	Fetal neocortex
+SRR2967664	12 weeks post-conception	Fetal neocortex
+SRR2967665	12 weeks post-conception	Fetal neocortex
+SRR2967666	12 weeks post-conception	Fetal neocortex
+SRR2967667	12 weeks post-conception	Fetal neocortex
+SRR2967668	12 weeks post-conception	Fetal neocortex
+SRR2967669	12 weeks post-conception	Fetal neocortex
+SRR2967670	12 weeks post-conception	Fetal neocortex
+SRR2967671	12 weeks post-conception	Fetal neocortex
+SRR2967672	12 weeks post-conception	Fetal neocortex
+SRR2967673	12 weeks post-conception	Fetal neocortex
+SRR2967674	12 weeks post-conception	Fetal neocortex
+SRR2967675	12 weeks post-conception	Fetal neocortex
+SRR2967676	12 weeks post-conception	Fetal neocortex
+SRR2967677	12 weeks post-conception	Fetal neocortex
+SRR2967678	12 weeks post-conception	Fetal neocortex
+SRR2967679	12 weeks post-conception	Fetal neocortex
+SRR2967680	12 weeks post-conception	Fetal neocortex
+SRR2967681	12 weeks post-conception	Fetal neocortex
+SRR2967682	12 weeks post-conception	Fetal neocortex
+SRR2967683	12 weeks post-conception	Fetal neocortex
+SRR2967684	12 weeks post-conception	Fetal neocortex
+SRR2967685	12 weeks post-conception	Fetal neocortex
+SRR2967686	12 weeks post-conception	Fetal neocortex
+SRR2967687	12 weeks post-conception	Fetal neocortex
+SRR2967688	12 weeks post-conception	Fetal neocortex
+SRR2967689	12 weeks post-conception	Fetal neocortex
+SRR2967690	12 weeks post-conception	Fetal neocortex
+SRR2967691	12 weeks post-conception	Fetal neocortex
+SRR2967692	12 weeks post-conception	Fetal neocortex
+SRR2967693	12 weeks post-conception	Fetal neocortex
+SRR2967694	12 weeks post-conception	Fetal neocortex
+SRR2967695	12 weeks post-conception	Fetal neocortex
+SRR2967696	12 weeks post-conception	Fetal neocortex
+SRR2967697	12 weeks post-conception	Fetal neocortex
+SRR2967698	12 weeks post-conception	Fetal neocortex
+SRR2967699	12 weeks post-conception	Fetal neocortex
+SRR2967700	12 weeks post-conception	Fetal neocortex
+SRR2967701	12 weeks post-conception	Fetal neocortex
+SRR2967702	12 weeks post-conception	Fetal neocortex
+SRR2967703	12 weeks post-conception	Fetal neocortex
+SRR2967704	12 weeks post-conception	Fetal neocortex
+SRR2967705	12 weeks post-conception	Fetal neocortex
+SRR2967706	12 weeks post-conception	Fetal neocortex
+SRR2967707	12 weeks post-conception	Fetal neocortex
+SRR2967708	12 weeks post-conception	Fetal neocortex
+SRR2967709	12 weeks post-conception	Fetal neocortex
+SRR2967710	12 weeks post-conception	Fetal neocortex
+SRR2967711	12 weeks post-conception	Fetal neocortex
+SRR2967712	12 weeks post-conception	Fetal neocortex
+SRR2967713	12 weeks post-conception	Fetal neocortex
+SRR2967714	12 weeks post-conception	Fetal neocortex
+SRR2967715	12 weeks post-conception	Fetal neocortex
+SRR2967716	12 weeks post-conception	Fetal neocortex
+SRR2967717	12 weeks post-conception	Fetal neocortex
+SRR2967718	12 weeks post-conception	Fetal neocortex
+SRR2967719	12 weeks post-conception	Fetal neocortex
+SRR2967720	12 weeks post-conception	Fetal neocortex
+SRR2967721	12 weeks post-conception	Fetal neocortex
+SRR2967722	12 weeks post-conception	Fetal neocortex
+SRR2967723	12 weeks post-conception	Fetal neocortex
+SRR2967724	12 weeks post-conception	Fetal neocortex
+SRR2967725	12 weeks post-conception	Fetal neocortex
+SRR2967726	12 weeks post-conception	Fetal neocortex
+SRR2967727	12 weeks post-conception	Fetal neocortex
+SRR2967728	12 weeks post-conception	Fetal neocortex
+SRR2967729	12 weeks post-conception	Fetal neocortex
+SRR2967730	12 weeks post-conception	Fetal neocortex
+SRR2967731	12 weeks post-conception	Fetal neocortex
+SRR2967732	12 weeks post-conception	Fetal neocortex
+SRR2967733	12 weeks post-conception	Fetal neocortex
+SRR2967734	12 weeks post-conception	Fetal neocortex
+SRR2967735	12 weeks post-conception	Fetal neocortex
+SRR2967736	12 weeks post-conception	Fetal neocortex
+SRR2967737	12 weeks post-conception	Fetal neocortex
+SRR2967738	12 weeks post-conception	Fetal neocortex
+SRR2967739	12 weeks post-conception	Fetal neocortex
+SRR2967740	12 weeks post-conception	Fetal neocortex
+SRR2967741	12 weeks post-conception	Fetal neocortex
+SRR2967742	12 weeks post-conception	Fetal neocortex
+SRR2967743	12 weeks post-conception	Fetal neocortex
+SRR2967744	12 weeks post-conception	Fetal neocortex
+SRR2967745	12 weeks post-conception	Fetal neocortex
+SRR2967746	12 weeks post-conception	Fetal neocortex
+SRR2967747	12 weeks post-conception	Fetal neocortex
+SRR2967748	12 weeks post-conception	Fetal neocortex
+SRR2967749	12 weeks post-conception	Fetal neocortex
+SRR2967750	12 weeks post-conception	Fetal neocortex
+SRR2967751	12 weeks post-conception	Fetal neocortex
+SRR2967752	12 weeks post-conception	Fetal neocortex
+SRR2967753	12 weeks post-conception	Fetal neocortex
+SRR2967754	12 weeks post-conception	Fetal neocortex
+SRR2967755	12 weeks post-conception	Fetal neocortex
+SRR2967756	12 weeks post-conception	Fetal neocortex
+SRR2967757	12 weeks post-conception	Fetal neocortex
+SRR2967758	12 weeks post-conception	Fetal neocortex
+SRR2967759	12 weeks post-conception	Fetal neocortex
+SRR2967760	12 weeks post-conception	Fetal neocortex
+SRR2967761	12 weeks post-conception	Fetal neocortex
+SRR2967762	12 weeks post-conception	Fetal neocortex
+SRR2967763	12 weeks post-conception	Fetal neocortex
+SRR2967764	12 weeks post-conception	Fetal neocortex
+SRR2967765	12 weeks post-conception	Fetal neocortex
+SRR2967766	12 weeks post-conception	Fetal neocortex
+SRR2967767	12 weeks post-conception	Fetal neocortex
+SRR2967768	12 weeks post-conception	Fetal neocortex
+SRR2967769	12 weeks post-conception	Fetal neocortex
+SRR2967770	12 weeks post-conception	Fetal neocortex
+SRR2967771	12 weeks post-conception	Fetal neocortex
+SRR2967772	13 weeks post-conception	Fetal neocortex
+SRR2967773	13 weeks post-conception	Fetal neocortex
+SRR2967774	13 weeks post-conception	Fetal neocortex
+SRR2967775	13 weeks post-conception	Fetal neocortex
+SRR2967776	13 weeks post-conception	Fetal neocortex
+SRR2967777	13 weeks post-conception	Fetal neocortex
+SRR2967778	13 weeks post-conception	Fetal neocortex
+SRR2967779	13 weeks post-conception	Fetal neocortex
+SRR2967780	13 weeks post-conception	Fetal neocortex
+SRR2967781	13 weeks post-conception	Fetal neocortex
+SRR2967782	13 weeks post-conception	Fetal neocortex
+SRR2967783	13 weeks post-conception	Fetal neocortex
+SRR2967784	13 weeks post-conception	Fetal neocortex
+SRR2967785	13 weeks post-conception	Fetal neocortex
+SRR2967786	13 weeks post-conception	Fetal neocortex
+SRR2967787	13 weeks post-conception	Fetal neocortex
+SRR2967788	13 weeks post-conception	Fetal neocortex
+SRR2967789	13 weeks post-conception	Fetal neocortex
+SRR2967790	13 weeks post-conception	Fetal neocortex
+SRR2967791	13 weeks post-conception	Fetal neocortex
+SRR2967792	13 weeks post-conception	Fetal neocortex
+SRR2967793	13 weeks post-conception	Fetal neocortex
+SRR2967794	13 weeks post-conception	Fetal neocortex
+SRR2967795	13 weeks post-conception	Fetal neocortex
+SRR2967796	13 weeks post-conception	Fetal neocortex
+SRR2967797	13 weeks post-conception	Fetal neocortex
+SRR2967798	13 weeks post-conception	Fetal neocortex
+SRR2967799	13 weeks post-conception	Fetal neocortex
+SRR2967800	13 weeks post-conception	Fetal neocortex
+SRR2967801	13 weeks post-conception	Fetal neocortex
+SRR2967802	13 weeks post-conception	Fetal neocortex
+SRR2967803	13 weeks post-conception	Fetal neocortex
+SRR2967804	13 weeks post-conception	Fetal neocortex
+SRR2967805	13 weeks post-conception	Fetal neocortex
+SRR2967806	13 weeks post-conception	Fetal neocortex
+SRR2967807	13 weeks post-conception	Fetal neocortex
+SRR2967808	13 weeks post-conception	Fetal neocortex
+SRR2967809	13 weeks post-conception	Fetal neocortex
+SRR2967810	13 weeks post-conception	Fetal neocortex
+SRR2967811	13 weeks post-conception	Fetal neocortex
+SRR2967813	13 weeks post-conception	Fetal neocortex
+SRR2967814	13 weeks post-conception	Fetal neocortex
+SRR2967815	13 weeks post-conception	Fetal neocortex
+SRR2967816	13 weeks post-conception	Fetal neocortex
+SRR2967817	13 weeks post-conception	Fetal neocortex
+SRR2967818	13 weeks post-conception	Fetal neocortex
+SRR2967819	13 weeks post-conception	Fetal neocortex
+SRR2967820	13 weeks post-conception	Fetal neocortex
+SRR2967821	13 weeks post-conception	Fetal neocortex
+SRR2967822	13 weeks post-conception	Fetal neocortex
+SRR2967823	13 weeks post-conception	Fetal neocortex
+SRR2967824	13 weeks post-conception	Fetal neocortex
+SRR2967825	13 weeks post-conception	Fetal neocortex
+SRR2967826	13 weeks post-conception	Fetal neocortex
+SRR2967827	13 weeks post-conception	Fetal neocortex
+SRR2967828	13 weeks post-conception	Fetal neocortex
+SRR2967829	13 weeks post-conception	Fetal neocortex
+SRR2967830	13 weeks post-conception	Fetal neocortex
+SRR2967831	13 weeks post-conception	Fetal neocortex
+SRR2967832	13 weeks post-conception	Fetal neocortex
+SRR2967833	13 weeks post-conception	Fetal neocortex
