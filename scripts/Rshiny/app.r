@@ -539,7 +539,7 @@ ui <- navbarPage(
           
           hr(),
           h4("Colour and style"),
-          sliderInput("pt_size", "Point size", min = 0.5, max = 6, value = 5, step = 0.1),
+          sliderInput("pt_size", "Point size", min = 0.5, max = 6, value = 2.5, step = 0.1),
           sliderInput("pt_alpha", "Point alpha", min = 0.1, max = 1.0, value = 0.88, step = 0.05),
           checkboxInput("show_labels", "Show cluster labels", value = TRUE),
           checkboxInput("show_legend", "Show legend", value = TRUE),
