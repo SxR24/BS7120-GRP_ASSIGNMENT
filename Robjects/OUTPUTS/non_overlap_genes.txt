@@ -1,0 +1,107 @@
+Genes present in NEW file but NOT in ORIGINAL file, by PC column
+==========================================================================
+
+PC column: PC1 cor
+Number of non‑overlapping genes: 2
+Genes:
+  ANP32E
+  HELLS
+--------------------------------------------
+
+PC column: PC1 anti
+Number of non‑overlapping genes: 5
+Genes:
+  AKT3
+  MAPT
+  NFIB
+  RBFOX2
+  SCG5
+--------------------------------------------
+
+PC column: PC2 cor
+Number of non‑overlapping genes: 25
+Genes:
+  ARL3
+  ATP5J2
+  ATPIF1
+  BCL11A
+  CALM1
+  CALM2
+  DYNLL1
+  FXYD7
+  GPI
+  HINT1
+  HIST1H4C
+  HNRNPA0
+  MASP1
+  MIF
+  PAFAH1B3
+  POLR2I
+  RAB3A
+  RTN3
+  SMIM20
+  THSD7A
+  TUBB2A
+  UQCR11
+  WTAP
+  YWHAB
+  YWHAQ
+--------------------------------------------
+
+PC column: PC2 anti
+Number of non‑overlapping genes: 9
+Genes:
+  ANTXR2
+  CBFA2T2
+  FAM60A
+  MTRNR2L12
+  MTRNR2L8
+  PPCDC
+  PTPN4
+  RNF144A
+  SOX11
+--------------------------------------------
+
+PC column: PC3 anti
+Number of non‑overlapping genes: 4
+Genes:
+  CDH6
+  NPR3
+  PRICKLE2
+  SMARCA2
+--------------------------------------------
+
+PC column: PC2 rg cor
+Number of non‑overlapping genes: 3
+Genes:
+  JMJD7
+  PIM1
+  TYRO3
+--------------------------------------------
+
+PC column: PC1 rg cor
+Number of non‑overlapping genes: 4
+Genes:
+  CENPF
+  HIST1H3C
+  KIF2C
+  TUBB4B
+--------------------------------------------
+
+PC column: PC4 anti
+Number of non‑overlapping genes: 3
+Genes:
+  C7orf50
+  NINJ1
+  SLC26A11
+--------------------------------------------
+
+PC column: PC2 rg anti
+Number of non‑overlapping genes: 4
+Genes:
+  ACVR2A
+  DLL3
+  MYCL
+  PGM2L1
+--------------------------------------------
+
