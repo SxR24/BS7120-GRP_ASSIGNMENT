@@ -1,8 +1,3 @@
-# ------------------------------------------------------------
-# Modern Seurat Reanalysis of Camp et al. (2015)
-# Dataset: GSE75140
-# ------------------------------------------------------------
-
 library(Seurat)
 library(dplyr)
 library(ggplot2)
@@ -11,9 +6,7 @@ library(htmlwidgets)
 
 set.seed(1234)
 
-# ------------------------------------------------------------
-# 1. Load Data
-# ------------------------------------------------------------
+# Main Seurat reanalysis script
 
 counts_raw <- read.table(
   "GSE75140_hOrg.fetal.master.data.frame.txt",
@@ -23,7 +16,7 @@ counts_raw <- read.table(
   check.names = FALSE
 )
 
-# Transpose (dataset is cells x genes; Seurat needs genes x cells)
+# Matrix comes in as cells x genes, so flip it for Seurat
 counts <- t(counts_raw)
 
 seurat_obj <- CreateSeuratObject(
@@ -32,49 +25,30 @@ seurat_obj <- CreateSeuratObject(
   min.features = 200
 )
 
-# ------------------------------------------------------------
-# 2. Basic Filtering
-# ------------------------------------------------------------
-
+# Basic Filtering 
 seurat_obj <- subset(
   seurat_obj,
   subset = nFeature_RNA > 500 &
            nFeature_RNA < 7000
 )
 
-# ------------------------------------------------------------
-# 3. SCTransform Normalisation
-# ------------------------------------------------------------
-
+# No extra mitochondrial filtering here since I was mainly keeping the same broad workflow 
 seurat_obj <- SCTransform(seurat_obj, verbose = FALSE)
 
-# ------------------------------------------------------------
-# 4. PCA
-# ------------------------------------------------------------
-
+# PCA + clustering
 seurat_obj <- RunPCA(seurat_obj, verbose = FALSE)
-
-# ------------------------------------------------------------
-# 5. Clustering (Resolution 0.5)
-# ------------------------------------------------------------
 
 seurat_obj <- FindNeighbors(seurat_obj, dims = 1:15)
 seurat_obj <- FindClusters(seurat_obj, resolution = 0.5)
 
-# ------------------------------------------------------------
-# 6. 2D UMAP
-# ------------------------------------------------------------
-
+# 0.5 was the most reasonable middle ground, lower merged too much, higher started splitting things too hard
 seurat_obj <- RunUMAP(seurat_obj, dims = 1:15)
 
 png("outputs/UMAP_2D_clusters.png", width = 1000, height = 800)
 DimPlot(seurat_obj, reduction = "umap", label = TRUE)
 dev.off()
 
-# ------------------------------------------------------------
-# 7. 3D UMAP
-# ------------------------------------------------------------
-
+# Also saved a 3D version just to check cluster separation another way
 seurat_obj <- RunUMAP(seurat_obj, dims = 1:15, n.components = 3)
 umap_3d <- Embeddings(seurat_obj, "umap")
 
@@ -93,10 +67,7 @@ htmlwidgets::saveWidget(
   "outputs/Final_UMAP_3D_resolution0.5.html"
 )
 
-# ------------------------------------------------------------
-# 8. Marker Identification
-# ------------------------------------------------------------
-
+# Marker genes by cluster
 markers <- FindAllMarkers(
   seurat_obj,
   only.pos = TRUE,
@@ -114,10 +85,7 @@ write.csv(
   row.names = FALSE
 )
 
-# ------------------------------------------------------------
-# 9. Condition Comparison (Fetal vs Organoid)
-# ------------------------------------------------------------
-
+# Simple condition labels from the sample names
 seurat_obj$condition <- ifelse(
   grepl("hOrg", colnames(seurat_obj)),
   "Organoid",
@@ -133,7 +101,3 @@ write.csv(
   cluster_condition_table,
   "outputs/Cluster_vs_Condition_table.csv"
 )
-
-# ------------------------------------------------------------
-# End of Script
-# ------------------------------------------------------------
