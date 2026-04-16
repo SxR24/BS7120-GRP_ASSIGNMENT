@@ -1,21 +1,9 @@
-############################################################
-# Figure 3 Gene Expression Analysis Pipeline
-############################################################
-
-# Load libraries
 library(data.table)
 library(pheatmap)
 
-############################################################
-# Set working directory
-############################################################
-
 setwd("~/figure3_work")
 
-############################################################
 # Load expression matrix
-############################################################
-
 expr <- fread("inputs/2026_UoL_prj_gene_matrix_f.tsv")
 
 gene_names <- expr[[1]]
@@ -23,20 +11,13 @@ expr[[1]] <- NULL
 
 expr_mat <- as.matrix(expr)
 expr_mat <- apply(expr_mat, 2, as.numeric)
-
 rownames(expr_mat) <- gene_names
-
-############################################################
-# Inspect matrix
-############################################################
 
 dim(expr_mat)
 head(expr_mat[,1:5])
 
-############################################################
 # PCA analysis
-############################################################
-
+# Using top 10% most variable genes
 gene_var <- apply(expr_mat, 1, var, na.rm = TRUE)
 gene_var[is.na(gene_var)] <- 0
 
@@ -46,9 +27,10 @@ expr_top <- expr_mat[
   drop = FALSE
 ]
 
-# remove genes with zero variance before PCA
+# Remove genes with zero variance before PCA
 expr_top <- expr_top[apply(expr_top, 1, var, na.rm = TRUE) > 0, , drop = FALSE]
 
+# Tried a couple of variance cutoffs here; 0.9 gave cleaner separation 
 pca <- prcomp(t(expr_top), scale.=TRUE)
 
 png("figures/PCA_samples.png", width=1200, height=900)
@@ -62,23 +44,15 @@ plot(pca$x[,1], pca$x[,2],
 
 dev.off()
 
-############################################################
 # Sample clustering
-############################################################
-
 dist_mat <- dist(t(expr_top))
 hc <- hclust(dist_mat)
 
 png("figures/sample_clustering.png", width=1200, height=900)
-
 plot(hc, main="Sample Clustering")
-
 dev.off()
 
-############################################################
 # Marker genes
-############################################################
-
 marker_genes <- c(
   "PAX6","SOX2","VIM","HES1","PROM1",
   "EOMES","HES6","INSM1","ASPM",
@@ -88,13 +62,10 @@ marker_genes <- c(
 writeLines(marker_genes,"outputs/marker_genes.tsv")
 
 genes_present <- intersect(marker_genes, rownames(expr_mat))
-
 writeLines(genes_present,"outputs/genes_heatmap.tsv")
 
-############################################################
-# Basic heatmap
-############################################################
 
+# Quick heatmap first
 heatmap_mat <- expr_mat[genes_present,,drop=FALSE]
 
 heatmap_scaled <- t(scale(t(heatmap_mat)))
@@ -113,25 +84,13 @@ pheatmap(
 
 dev.off()
 
-############################################################
-# Load metadata
-############################################################
 
+# Metadata
 meta <- read.csv("inputs/SraRunTable (1).csv", stringsAsFactors=FALSE)
 
-############################################################
-# Match metadata to matrix
-############################################################
-
 common_ids <- intersect(meta$Run, colnames(expr_mat))
-
 meta2 <- meta[match(common_ids, meta$Run),]
-
 expr_mat2 <- expr_mat[,common_ids,drop=FALSE]
-
-############################################################
-# Annotation table
-############################################################
 
 annotation_col <- data.frame(
   stage = meta2$stage,
@@ -140,10 +99,7 @@ annotation_col <- data.frame(
 
 rownames(annotation_col) <- meta2$Run
 
-############################################################
-# Annotated heatmap
-############################################################
-
+# Annotated version looks better for comparing sample groups
 heatmap_mat2 <- expr_mat2[genes_present,,drop=FALSE]
 
 heatmap_scaled2 <- t(scale(t(heatmap_mat2)))
@@ -163,20 +119,13 @@ pheatmap(
 
 dev.off()
 
-############################################################
-# Save outputs
-############################################################
-
 write.csv(meta2,"outputs/metadata_aligned.csv",row.names=FALSE)
 
 write.table(annotation_col,
             file="outputs/cell_metadata.tsv",
             sep="\t",
             quote=FALSE,
-            col.names=NA)
-
-############################################################
-# Done
-############################################################
+            col.names=NA
+           )
 
 print("Pipeline complete.")
