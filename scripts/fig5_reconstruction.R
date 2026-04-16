@@ -2,9 +2,8 @@ setwd("~/figure5_work")
 
 library(igraph)
 
-# -----------------------------
-# 1. Input data
-# -----------------------------
+# Figure 5 reconstruction
+# Main lineage/path genes highlighted in the left panel
 seed_genes <- c(
   "PROM1","SOX2","PAX6","GLI3","INSM1","HES6",
   "SOX11","SOX4","NEUROD6","MYT1L","TBR1","MEF2C","EOMES"
@@ -13,14 +12,12 @@ seed_genes <- c(
 edge_df <- read.csv("results/fig5_gene_correlation_edges_big.csv", stringsAsFactors = FALSE)
 screen_df <- read.csv("data/sd04_correlation_screens_clean.csv", stringsAsFactors = FALSE)
 
-# Clean category names
+# Some category names needed cleaning up first
 screen_df$set_name <- trimws(screen_df$set_name)
 screen_df$set_name[screen_df$set_name == "hcondel"] <- "hCondel"
 screen_df$set_name[screen_df$set_name == "neanderthal"] <- "modHum"
 
-# -----------------------------
-# 2. Build main network
-# -----------------------------
+# Build main network
 g_big <- graph_from_data_frame(edge_df, directed = FALSE)
 E(g_big)$weight <- edge_df$cor
 
@@ -33,9 +30,7 @@ V(g_main)$is_seed <- V(g_main)$name %in% seed_genes
 set.seed(123)
 lay_main <- layout_with_fr(g_main)
 
-# -----------------------------
-# 3. Left panel
-# -----------------------------
+# Left panel
 png("results/fig5_left_panel_BEST.png", width = 1800, height = 1600)
 
 plot(
@@ -62,9 +57,7 @@ text(
 
 dev.off()
 
-# -----------------------------
-# 4. Right panel overlays
-# -----------------------------
+# Overlays for the right-handed panels
 screen_net <- screen_df[screen_df$gene %in% V(g_main)$name, ]
 
 make_overlay_colors <- function(set_name, highlight_col) {
