@@ -90,6 +90,7 @@ ex_mat_fnc <- select(ex_mat_fnc, -contains(inter_neur))
 ex_mat_fnc <- select(ex_mat_fnc, -contains("SRR2967658")) # Mystery Missing Cell?
 
 # Select organoids (fig4) NEEDS ADJUSTING, INFO FROM FIG 3 and 5SA; 157 cells in TOTAL
+# Not included
 
 org_cells <- subset(SraRunTable_1_, tissue == "Microdissected cortical-like ventricle from cerebral organoid")
 ex_mat_org <- select(expression_matrix, contains(org_cells$Run))
@@ -131,7 +132,7 @@ cds <- reduce_dimension(cds, preprocess_method = "PCA", reduction_method = "PCA"
                         max_components = 2)
 
 cds@int_colData@listData$reducedDims@listData$UMAP <- cds@int_colData@listData$reducedDims$PCA
-# Step 4: Cluster the cells
+# Step 4: Cluster the cells (Overriding UMAP with PCA as only 'UMAP' is supported for graph)
 cds <- cluster_cells(cds, reduction_method = "PCA", cluster_method = "louvain")
 cds@clusters@listData$UMAP <- cds@clusters@listData$PCA
 cds@int_metadata$reduce_dim_metadata$UMAP <- cds@int_metadata$reduce_dim_metadata$PCA
@@ -139,120 +140,49 @@ cds@int_metadata$reduce_dim_metadata$UMAP <- cds@int_metadata$reduce_dim_metadat
 
 cds <- learn_graph(cds)
 # Step 6: Order cells (Starts at AP)
-cds <- order_cells(cds)
+cds <- order_cells(cds) # Issue with multi-dimensional data?
 
 
-## TESTING
-cds <- preprocess_cds(cds, use_genes = genes_from_fig1c, norm_method = "none", method = "PCA")
-cds <- align_cds(cds, preprocess_method = "PCA")
-plot_pc_variance_explained(cds)
-cds <- reduce_dimension(cds,reduction_method = "PCA")
-plot_cells(cds, color_cells_by = "CellType", reduction_method = "PCA", cell_size = 2,
-           x = 2, y = 1)
-cds <- cluster_cells(cds, reduction_method = "PCA")
-plot_cells(cds, reduction_method = "PCA", cell_size = 2, color_cells_by = "CellType",
-           x = 2, y = 1)
-
-cds@int_colData@listData$reducedDims@listData$UMAP <- cds@int_colData@listData$reducedDims$PCA
-
-cds <- learn_graph(cds)
-
-cds <- order_cells(cds)
-
-##
 a <- plot_cells(cds, color_cells_by = "CellType",
            label_cell_groups=FALSE,
            label_leaves=TRUE,
            label_branch_points=TRUE,
            graph_label_size=1.5,
-           cell_size = 2)
+           cell_size = 2) + xlab("Component 1") + ylab("Component 2")
 
 b <- plot_cells(cds, color_cells_by = "Zone",
            label_cell_groups=FALSE,
            label_leaves=TRUE,
            label_branch_points=TRUE,
            graph_label_size=1.5,
-           cell_size = 2)
+           cell_size = 2) + xlab("Component 1") + ylab("Component 2")
 c <- plot_cells(cds, genes = "SOX2",
                 label_cell_groups=FALSE,
                 label_leaves=TRUE,
                 label_branch_points=TRUE,
                 graph_label_size=1.5,
-                cell_size = 2) 
+                cell_size = 2) + xlab("Component 1") + ylab("Component 2")
 d <- plot_cells(cds, genes = "EOMES",
                 label_cell_groups=FALSE,
                 label_leaves=TRUE,
                 label_branch_points=TRUE,
                 graph_label_size=1.5,
-                cell_size = 2) + theme(legend.position = "none")
+                cell_size = 2) + theme(legend.position = "none") + 
+  xlab("Component 1") + ylab("Component 2")
 e <- plot_cells(cds, genes = "MYT1L",
                 label_cell_groups=FALSE,
                 label_leaves=TRUE,
                 label_branch_points=TRUE,
                 graph_label_size=1.5,
-                cell_size = 2) + theme(legend.position = "none")
+                cell_size = 2) + theme(legend.position = "none") +
+  xlab("Component 1") + ylab("Component 2")
 a
 
 a / (b+c+d+e)
 
-save_monocle_objects(cds=cds, directory_path='monocle_3_cds', comment='Version1 - 18/03')
+save_monocle_objects(cds=cds, directory_path='monocle_3_cds', comment='Version2 - 17/04')
 # cds <- load_monocle_objects(directory_path='monocle_3_cds')
 
-# Fig 4
-
-cds_4 <- new_cell_data_set(mat_o,
-                         cell_metadata = NULL,
-                         gene_metadata = gene_metadata) 
-
-cds_4 <- preprocess_cds(cds_4, use_genes = genes_from_fig1c,)
-# Step 2: Remove batch effects with cell alignment
-cds_4 <- align_cds(cds_4)
-# Step 3: Reduce the dimensions using UMAP
-cds_4 <- reduce_dimension(cds_4)
-# Step 4: Cluster the cells
-cds_4 <- cluster_cells(cds_4)
-# Step 5: Learn a graph
-cds_4 <- learn_graph(cds_4)
-# Step 6: Order cells (Starts at AP)
-cds_4 <- order_cells(cds_4)
-
-
-a <- plot_cells(cds_4, color_cells_by = "CellType",
-                label_cell_groups=FALSE,
-                label_leaves=TRUE,
-                label_branch_points=TRUE,
-                graph_label_size=1.5,
-                cell_size = 2)
-
-b <- plot_cells(cds_4, color_cells_by = "Zone",
-                label_cell_groups=FALSE,
-                label_leaves=TRUE,
-                label_branch_points=TRUE,
-                graph_label_size=1.5,
-                cell_size = 2)
-c <- plot_cells(cds_4, genes = "SOX2",
-                label_cell_groups=FALSE,
-                label_leaves=TRUE,
-                label_branch_points=TRUE,
-                graph_label_size=1.5,
-                cell_size = 2) 
-d <- plot_cells(cds_4, genes = "EOMES",
-                label_cell_groups=FALSE,
-                label_leaves=TRUE,
-                label_branch_points=TRUE,
-                graph_label_size=1.5,
-                cell_size = 2) + theme(legend.position = "none")
-e <- plot_cells(cds_4, genes = "MYT1L",
-                label_cell_groups=FALSE,
-                label_leaves=TRUE,
-                label_branch_points=TRUE,
-                graph_label_size=1.5,
-                cell_size = 2) + theme(legend.position = "none")
-# a / (b+c+d+e)
-
-a / (c + d + e)
-
-get_citations(cds)
 ## Monocle Objects - Please read for LAMP server!
 
 # Best way to load up the 'monocle_3_cds' is via:
@@ -266,4 +196,8 @@ get_citations(cds)
 # 
 # It may be useful to have a drop-down for genes; not entirely sure how shiny works but
 # see above for a list of genes used, it may be nice to visualize different gene expressions
+#
+# It's worth noting on the website that this hasn't worked; primary issue is that it is still
+# detecting 13 dimensions in the data, even after reduction. From what I've looked into
+# the cds should only have 2; I'm not sure why its convinced theres more.
 
