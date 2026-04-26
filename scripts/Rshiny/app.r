@@ -1,6 +1,6 @@
 library(shiny)
 
-# Plot file
+# Plot files
 
 original_plots <- list(
   "Figure S1A" = c("Figure_S1A.rds"),
@@ -149,37 +149,17 @@ plot_notes <- list(
 
 # Axis Inoformation
 
-interactive_axis_info <- list(
-  "pca" = data.frame(
-    Axis = c("X Axis", "Y Axis"),
-    Description = c("PCA or overlap axis 1", "PCA or overlap axis 2"),
-    stringsAsFactors = FALSE
-  ),
-  "org" = data.frame(
-    Axis = c("X Axis", "Y Axis"),
-    Description = c("Organoid comparison axis 1", "Organoid comparison axis 2"),
-    stringsAsFactors = FALSE
-  ),
-  "orig3d" = data.frame(
-    Axis = c("X Axis", "Y Axis"),
-    Description = c("Original Figure 3D tSNE 1", "Original Figure 3D tSNE 2"),
-    stringsAsFactors = FALSE
-  ),
-  "alt3d" = data.frame(
-    Axis = c("X Axis", "Y Axis"),
-    Description = c("Alternative Figure 3D axis 1", "Alternative Figure 3D axis 2"),
-    stringsAsFactors = FALSE
-  ),
-  "nc3d" = data.frame(
-    Axis = c("X Axis", "Y Axis"),
-    Description = c("Non coding Figure 3D axis 1", "Non coding Figure 3D axis 2"),
-    stringsAsFactors = FALSE
-  )
-)
+
 
 # Conclusion
 
 conclusion_text <- "This website was built to bring the main parts of our project into one place. Instead of leaving the work spread across separate scripts, figures and intermediate files, it provides a clearer way of moving through and visualising the original pipeline and the alternative pipeline, as well as providing a level of interaction and the ability to make queries on specifc genes. This is important for a dataset like this one, where the analysis quickly becomes difficult to follow if everything is only presented as disconnected outputs. An important feature of the site is that it does not just display final figures; the original and alternative tabs let the user move through multiple plots in an organised way, while the interactive panel makes it possible to adjust the size of selected plots and inspect the cell assignment table alongside them. The gene query section provides another layer of analysis by allowing individual genes to be selected directly from the expression matrix, with a summary table, distribution plot and expression preview shown dynamically.Together, these parts make the website more than just a gallery of results. The website, therefore, acts as an accessible front-end for observing both the dataset and its analysis. At the same time, the website also reflects the limits of the work behind it. Not every part of the original study could be reproduced perfectly, and some sections are necessarily based on precomputed objects rather than being generated from scratch inside the app each time. A few outputs were also easier to anchor to the paper than others, especially where the published supplementary data were clearer. Considering these limits, the site still achieves its purpose: it makes the analyses easier to navigate, allows the user to compare the main strands of the project in one place, and gives a more accessible view of the Camp et al. (2015) dataset than a directory of separate plots alone."
+
+# About
+about_text <- "This website has been developed to facilitate the visual interpretation of the datasets originally produced and provided by Camp et al. (2015). This includes a reproduction of their analysis, including general scRNA-seq analysis of both cerebral organoid and foetal neocortex, as well as developmental single-cell trajectory analysis, using tools that the authors used. We also include an alternative pipeline, showing that the results of Camp et al. (2015) can be reproduced using varying methods. This website also contains tools for querying specific genes interactive plots. Finally, concluding remarks regarding our analysis can be found; each section is contained within a separate tab."
+authors_text <- "Ali, Isa E\nKataria, Nitesh Ghansham\nShaban, Noor H.S.\nWroclawska, Weronika M.\nRamesh Kumar, Sohil Ananth\nHazzard, Jed "
+reference_text <- "Camp, J.G. et al. (2015) 'Human cerebral organoids recapitulate gene expression programs of fetal neocortex development', Proceedings of the National Academy of Sciences of the United States of America, 112(51), pp. 15672–15677. Available at: https://doi.org/10.1073/pnas.1520760112 "
+
 # Data files
 
 cell_file <- if (file.exists("cell_assignments.txt")) "cell_assignments.txt" else "cell_assignments"
@@ -262,14 +242,15 @@ ui_base <- fluidPage(
     class = "topbar",
     div(
       class = "topbar-left",
-      div(class = "brand", span(class = "brand-icon", "◉"), "Group-A Dashboard Analysis of Human Cerebral Organoids"),
+      div(class = "brand", "Group-A Dashboard: Analysis of Human Cerebral Organoids"),
       div(
         class = "top-nav",
         actionButton("nav_original", "Original Pipeline", class = "nav-btn"),
         actionButton("nav_alternative", "Alternative Pipeline", class = "nav-btn"),
         actionButton("nav_interactive", "Interactive Panel", class = "nav-btn"),
         actionButton("nav_gene", "Gene Query", class = "nav-btn"),
-        actionButton("nav_conclusion", "Conclusion", class = "nav-btn")
+        actionButton("nav_conclusion", "Conclusion", class = "nav-btn"),
+        actionButton("nav_about", "About", class = "nav-btn")
       )
     ),
     div()
@@ -291,6 +272,7 @@ server <- function(input, output, session) {
   observeEvent(input$nav_interactive, current_page("interactive"))
   observeEvent(input$nav_gene, current_page("gene"))
   observeEvent(input$nav_conclusion, current_page("conclusion"))
+  observeEvent(input$nav_about, current_page("about"))
   
   output$orig_plot_list_ui <- renderUI({
     req(input$orig_plot_choice)
@@ -363,9 +345,6 @@ server <- function(input, output, session) {
             div(
               div(class = "content-title", textOutput("orig_selected_plot_title")),
               div(
-                class = "breadcrumb-line",
-                span(class = "crumb-accent", "Original Pipeline"),
-                HTML("&nbsp;&nbsp;&gt;&nbsp;&nbsp;"),
                 span(textOutput("orig_selected_plot_breadcrumb"))
               )
             )
@@ -373,7 +352,7 @@ server <- function(input, output, session) {
           div(class = "plot-panel", plotOutput("orig_plot", height = "760px")),
           div(
             class = "annotation-panel",
-            div(class = "annotation-title", "Annotation or Caption"),
+            div(class = "annotation-title", "Annotation"),
             div(class = "annotation-text", textOutput("orig_annotation"))
           )
         )
@@ -406,9 +385,7 @@ server <- function(input, output, session) {
             div(
               div(class = "content-title", textOutput("alt_selected_plot_title")),
               div(
-                class = "breadcrumb-line",
-                span(class = "crumb-accent", "Alternative Pipeline"),
-                HTML("&nbsp;&nbsp;&gt;&nbsp;&nbsp;"),
+                
                 span(textOutput("alt_selected_plot_breadcrumb"))
               )
             )
@@ -448,11 +425,7 @@ server <- function(input, output, session) {
             column(
               9,
               uiOutput("interactive_plot_ui"),
-              div(
-                class = "axis-card",
-                h4("X and Y Axis Table"),
-                uiOutput("interactive_axis_table_ui")
-              )
+              
             )
           )
         ),
@@ -467,8 +440,8 @@ server <- function(input, output, session) {
         div(
           class = "content-header",
           div(
-            div(class = "content-title", "Gene Query"),
-            div(class = "breadcrumb-line", span(class = "crumb-accent", "Expression Matrix"), HTML("&nbsp;&nbsp;&gt;&nbsp;&nbsp;"), "Individual gene dropdown")
+            div(class = "content-title", "Gene Query")
+            
           )
         ),
         div(
@@ -479,7 +452,7 @@ server <- function(input, output, session) {
             p(class = "small-muted", "Choose a gene from the expression matrix dropdown."),
             uiOutput("gene_dropdown_ui"),
             br(),
-            p(class = "small-muted", textOutput("gene_matrix_status"))
+          
           ),
           div(
             div(
@@ -498,6 +471,19 @@ server <- function(input, output, session) {
               tableOutput("gene_preview_table")
             )
           )
+        )
+      )
+    } else if (current_page() == "about") {
+      div(
+        class = "interactive-shell",
+        div(
+          class = "conclusion-box",
+          h2("About"),
+          div(style = "white-space: pre-wrap; line-height: 1.8; color: #4a5a75;", about_text),
+          h2("Authors"),
+          div(style = "white-space: pre-wrap; line-height: 1.8; color: #4a5a75;", authors_text),
+          h2("Reference"),
+          div(style = "white-space: pre-wrap; line-height: 1.8; color: #4a5a75;", reference_text)
         )
       )
     } else {
@@ -553,7 +539,7 @@ server <- function(input, output, session) {
     } else {
       print(obj)
     }
-  }, res = 110, width = function() session$clientData$output_orig_plot_width, height = 760)
+  }, res = 90, width = function() session$clientData$output_orig_plot_width, height = 760)
   
   output$alt_plot <- renderPlot({
     req(input$alt_plot_choice)
@@ -576,7 +562,7 @@ server <- function(input, output, session) {
     } else {
       print(obj)
     }
-  }, res = 110, width = function() session$clientData$output_alt_plot_width, height = 760)
+  }, res = 90, width = function() session$clientData$output_alt_plot_width, height = 760)
   
   output$orig_annotation <- renderText({
     req(input$orig_plot_choice)
@@ -629,32 +615,7 @@ server <- function(input, output, session) {
       print(obj)
     }
   }, res = 110, width = function() session$clientData$output_interactive_plot_width, height = function() input$interactive_plot_height)
-  
-  output$interactive_axis_table_ui <- renderUI({
-    req(input$interactive_plot_choice)
-    df <- interactive_axis_info[[input$interactive_plot_choice]]
-    
-    tags$div(
-      class = "axis-table-wrap",
-      tags$table(
-        class = "axis-table",
-        tags$thead(
-          tags$tr(
-            tags$th("Axis"),
-            tags$th("Description")
-          )
-        ),
-        tags$tbody(
-          lapply(seq_len(nrow(df)), function(i) {
-            tags$tr(
-              tags$td(class = "axis-col", df$Axis[i]),
-              tags$td(class = "desc-col", df$Description[i])
-            )
-          })
-        )
-      )
-    )
-  })
+
   
   output$cell_table <- renderTable({
     req(input$n_rows)
@@ -662,7 +623,6 @@ server <- function(input, output, session) {
   }, striped = TRUE, bordered = TRUE, spacing = "s")
   
   output$gene_matrix_status <- renderText({
-    paste("Matrix file:", gene_matrix_file)
   })
   
   output$gene_dropdown_ui <- renderUI({
@@ -808,33 +768,9 @@ server <- function(input, output, session) {
     )
   }, striped = TRUE, bordered = TRUE, spacing = "s")
   
-  observe({
-    session$sendCustomMessage("toggleNavActive", list(page = current_page()))
-  })
+
 }
 
-js <- HTML("
-Shiny.addCustomMessageHandler('toggleNavActive', function(message) {
-  var original = document.getElementById('nav_original');
-  var alternative = document.getElementById('nav_alternative');
-  var interactive = document.getElementById('nav_interactive');
-  var gene = document.getElementById('nav_gene');
-  var conclusion = document.getElementById('nav_conclusion');
-
-  if (original) original.classList.remove('active-tab');
-  if (alternative) alternative.classList.remove('active-tab');
-  if (interactive) interactive.classList.remove('active-tab');
-  if (gene) gene.classList.remove('active-tab');
-  if (conclusion) conclusion.classList.remove('active-tab');
-
-  if (message.page === 'original' && original) original.classList.add('active-tab');
-  if (message.page === 'alternative' && alternative) alternative.classList.add('active-tab');
-  if (message.page === 'interactive' && interactive) interactive.classList.add('active-tab');
-  if (message.page === 'gene' && gene) gene.classList.add('active-tab');
-  if (message.page === 'conclusion' && conclusion) conclusion.classList.add('active-tab');
-});
-")
-
-ui <- tagList(ui_base, tags$script(js))
+ui <- tagList(ui_base)
 
 shinyApp(ui, server)
