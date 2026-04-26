@@ -115,36 +115,36 @@ plot_notes <- list(
   "Figure 1C Comparison" = "Write annotation here.",
   "Figure S1A Comparison" = "Write annotation here.",
   "Figure S1A Comparison 2" = "Write annotation here.",
-  "Alternative Figure 3D" = "Write annotation here.",
-  "Alternative Figure S3H" = "Write annotation here.",
-  "Protein Prefilter" = "Write annotation here.",
-  "Protein Figure S1A" = "Write annotation here.",
-  "Protein Figure S1B Heatmap" = "Write annotation here.",
-  "Protein Figure S1C Heatmap" = "Write annotation here.",
-  "Protein Figure 3E" = "Write annotation here.",
-  "Protein Cell-Type Heatmap" = "Write annotation here.",
-  "Protein Cluster Expression" = "Write annotation here.",
-  "Protein Cluster-Zone Correlation" = "Write annotation here.",
-  "Protein Proto-Cluster" = "Write annotation here.",
-  "Protein Subcluster" = "Write annotation here.",
-  "Protein Subcluster Expression" = "Write annotation here.",
-  "Protein Subpopulation Cluster" = "Write annotation here.",
-  "Protein Zone Heatmap" = "Write annotation here.",
-  "Non-Coding Prefilter" = "Write annotation here.",
-  "Non-Coding Figure S1A" = "Write annotation here.",
-  "Non-Coding Figure S1B Heatmap" = "Write annotation here.",
-  "Non-Coding Figure S1C Heatmap" = "Write annotation here.",
-  "Non-Coding Figure 3D" = "Write annotation here.",
-  "Non-Coding Figure 3E" = "Write annotation here.",
-  "Non-Coding Figure S3H" = "Write annotation here.",
-  "Non-Coding Cell-Type Heatmap" = "Write annotation here.",
-  "Non-Coding Cluster Expression" = "Write annotation here.",
-  "Non-Coding Cluster-Zone Correlation" = "Write annotation here.",
-  "Non-Coding Proto-Cluster" = "Write annotation here.",
-  "Non-Coding Subcluster" = "Write annotation here.",
-  "Non-Coding Subcluster Expression" = "Write annotation here.",
-  "Non-Coding Subpopulation Cluster" = "Write annotation here.",
-  "Non-Coding Zone Heatmap" = "Write annotation here."
+  "Alternative Figure 3D" = "Reproduction of Figure 3D using our alternative pipeline. One fewer cluster is shown, though similar groupings can be seen. As with the original figure, shapes indicate the experiments, whilst colours indicate clusters.",
+  "Alternative Figure S3H" = "Expression patterns of the identifying genes to distinguish cell type and regional identity. Top differentially expressed genes were identified via a Seurat ROC test, with average expression displayed. The top row highlights functional roles. ",
+  "Protein Prefilter" = "Visualisation using the protein‑coding matrix, relating to the original protein-only gene subset, comprising of 20,121 genes. Distributions of library complexity (genes detected per cell), total reads per cell, and mitochondrial transcript fraction were examined. A lower bound of 2000 genes detected was used; cells showing fewer genes were removed. Cells with between 50,000 – 1,200,000 reads were kept. Cells with mitochondrial fraction >10% were removed due to being labelled as stressed or apoptotic.",
+  "Protein Figure S1A" = "Visualisation using the protein‑coding matrix, relating to the original protein-only gene subset, comprising of 20,121 genes. Scripts adapted from the original pipeline were used; Principal component analysis was performed on the scaled data of the selected variable genes Cells were projected onto PC1 and PC2. Cells were classified with PC1 < –10 as neurons and those with PC1 > –10 as NPCs.",
+  "Protein Figure S1B Heatmap" = "Visualisation using the protein‑coding matrix, relating to the original protein-only gene subset, comprising of 20,121 genes. As with the original Figure S1B, the hierarchical clustering heatmap shows per-cell correlation with PC1, with correlation shown in blue and anti-correlation shown in red. ",
+  "Protein Figure S1C Heatmap" = "Visualisation using the protein‑coding matrix, relating to the original protein-only gene subset, comprising of 20,121 genes. Interneurons are identified using the same marker gene panel as in the original Fig. S1C (GAD1, DLX1, DLX2, DLX5, DLX6, ERBB4) ",
+  "Protein Figure 3E" = "Visualisation using the protein‑coding matrix, relating to the original protein-only gene subset, comprising of 20,121 genes. Marker genes for each cluster, with expression shown via colour gradient. ",
+  "Protein Cell-Type Heatmap" = "Visualisation using the protein‑coding matrix, relating to the original protein-only gene subset, comprising of 20,121 genes. Heatmap presents identification of broad cell types: Apical radial glia (aRG), basal radial glia (bRG) and neurons. The identification is based on correlation (via Spearman coefficient) after Z-score normalisation, with an external reference of FACS-purified cell types.",
+  "Protein Cluster Expression" = "Visualisation using the protein‑coding matrix, relating to the original protein-only gene subset, comprising of 20,121 genes. UMAP of neural progenitor cells, with expression of cell‑type marker genes. These are the same list of genes used in the original analysis; colouring is based upon Z-score correlation with marker genes suggested in the original paper.",
+  "Protein Cluster-Zone Correlation" = "Visualisation using the protein‑coding matrix, relating to the original protein-only gene subset, comprising of 20,121 genes. UMAP of neural progenitor cells, with expression of cortical zone; colouring is based upon Z-score correlation with bulk zone references: CP, iSVZ, oSVZ and VZ.",
+  "Protein Proto-Cluster" = "Visualisation using the protein‑coding matrix, relating to the original protein-only gene subset, comprising of 20,121 genes. UMAP of neural progenitor cells, with 6 clusters. ",
+  "Protein Subcluster" = "Visualisation using the protein‑coding matrix, relating to the original protein-only gene subset, comprising of 20,121 genes. Subset of such matrix is shown, showing 62 neural progenitor cells (NPCs); subset of those identified from Figure S1A PCA1 threshold. Nearest neighbour graph with k = 5, followed by clustering via the Leiden algorithm; 5 clusters are shown.",
+  "Protein Subcluster Expression" = "Visualisation using the protein‑coding matrix, relating to the original protein-only gene subset, comprising of 20,121 genes. Subset of such matrix is shown, showing 62 neural progenitor cells (NPCs); subset of those identified from Figure S1A PCA1 threshold. UMAP of this subset is shown, with expression of cell‑type marker genes. These are the same list of genes used in the original analysis; colouring is based upon Z-score correlation with marker genes suggested in the original paper. ",
+  "Protein Subpopulation Cluster" = "Visualisation using the protein‑coding matrix, relating to the original protein-only gene subset, comprising of 20,121 genes. Overlay of cell-types used in original organoid analysis (Apical progenitors, basal progenitors, neurons) for the identification of biological identities in the resulting clusters, from the UMAP of neural progenitor cells.",
+  "Protein Zone Heatmap" = "Visualisation using the protein‑coding matrix, relating to the original protein-only gene subset, comprising of 20,121 genes. Heatmap of resulting clustering from UMAP of neural progenitor cells, where colouring is based upon per-cell Z-score correlation with bulk zone references: CP, iSVZ, oSVZ and VZ. This allows identification of further biological identities to each cluster. ",
+  "Non-Coding Prefilter" = "Visualisation using the non-coding matrix, used to investigate whether original protein-coding-only subset remained optimal and only excludes non-coding genes with no annotation, comprising of 78,899 genes. Distributions of library complexity (genes detected per cell), total reads per cell, and mitochondrial transcript fraction were examined. A lower bound of 2000 genes detected was used; cells showing fewer genes were removed. Cells with between 50,000 – 1,200,000 reads were kept. Cells with mitochondrial fraction >10% were removed due to being labelled as stressed or apoptotic.",
+  "Non-Coding Figure S1A" = "Visualisation using the non-coding matrix, used to investigate whether original protein-coding-only subset remained optimal and only excludes non-coding genes with no annotation, comprising of 78,899 genes. Scripts adapted from the original pipeline were used; Principal component analysis was performed on the scaled data of the selected variable genes Cells were projected onto PC1 and PC2. Cells were classified with PC1 < –10 as neurons and those with PC1 > –10 as NPCs. ",
+  "Non-Coding Figure S1B Heatmap" = "Visualisation using the non-coding matrix, used to investigate whether original protein-coding-only subset remained optimal and only excludes non-coding genes with no annotation, comprising of 78,899 genes. As with the original Figure S1B, the hierarchical clustering heatmap shows per-cell correlation with PC1, with correlation shown in blue and anti-correlation shown in red.",
+  "Non-Coding Figure S1C Heatmap" = "Visualisation using the non-coding matrix, used to investigate whether original protein-coding-only subset remained optimal and only excludes non-coding genes with no annotation, comprising of 78,899 genes. Interneurons are identified using the same marker gene panel as in the original Fig. S1C (GAD1, DLX1, DLX2, DLX5, DLX6, ERBB4).",
+  "Non-Coding Figure 3D" = "Visualisation using the non-coding matrix, used to investigate whether original protein-coding-only subset remained optimal and only excludes non-coding genes with no annotation, comprising of 78,899 genes. Reproduction of Figure 3D using our alternative pipeline, via expanded gene matrix. Two fewer clusters are shown, though similar groupings can be seen. As with the original figure, shapes indicate the experiments, whilst colours indicate clusters.",
+  "Non-Coding Figure 3E" = "Visualisation using the non-coding matrix, used to investigate whether original protein-coding-only subset remained optimal and only excludes non-coding genes with no annotation, comprising of 78,899 genes. Marker genes for each cluster, with expression shown via colour gradient. ",
+  "Non-Coding Figure S3H" = "Visualisation using the non-coding matrix, used to investigate whether original protein-coding-only subset remained optimal and only excludes non-coding genes with no annotation, comprising of 78,899 genes. Expression patterns of the identifying genes to distinguish cell type and regional identity. Top differentially expressed genes were identified via a Seurat ROC test, with average expression displayed. The top row highlights functional roles.",
+  "Non-Coding Cell-Type Heatmap" = "Visualisation using the non-coding matrix, used to investigate whether original protein-coding-only subset remained optimal and only excludes non-coding genes with no annotation, comprising of 78,899 genes. Heatmap presents identification of broad cell types: Apical radial glia (aRG), basal radial glia (bRG) and neurons. The identification is based on correlation (via Spearman coefficient) after Z-score normalisation, with an external reference of FACS-purified cell types.",
+  "Non-Coding Cluster Expression" = "Visualisation using the non-coding matrix, used to investigate whether original protein-coding-only subset remained optimal and only excludes non-coding genes with no annotation, comprising of 78,899 genes. UMAP of neural progenitor cells, with expression of cell‑type marker genes. These are the same list of genes used in the original analysis; colouring is based upon Z-score correlation with marker genes suggested in the original paper.",
+  "Non-Coding Cluster-Zone Correlation" = "Visualisation using the non-coding matrix, used to investigate whether original protein-coding-only subset remained optimal and only excludes non-coding genes with no annotation, comprising of 78,899 genes. UMAP of neural progenitor cells, with expression of cortical zone; colouring is based upon Z-score correlation with bulk zone references: CP, iSVZ, oSVZ and VZ.",
+  "Non-Coding Proto-Cluster" = "Visualisation using the non-coding matrix, used to investigate whether original protein-coding-only subset remained optimal and only excludes non-coding genes with no annotation, comprising of 78,899 genes. UMAP of neural progenitor cells, with 6 clusters. Cluster 4 is shown to be isolated from the other clusters in the UMAP; it was therefore incorporated via manual comparison with top 30 differentially expressed genes. ",
+  "Non-Coding Subcluster" = "Visualisation using the non-coding matrix, used to investigate whether original protein-coding-only subset remained optimal and only excludes non-coding genes with no annotation, comprising of 78,899 genes. Subset of such matrix is shown, showing 61 neural progenitor cells (NPCs); subset of those identified from Figure S1A PCA1 threshold. Nearest neighbour graph with k = 5, followed by clustering via the Leiden algorithm; 6 clusters are shown.",
+  "Non-Coding Subcluster Expression" = "isualisation using the non-coding matrix, used to investigate whether original protein-coding-only subset remained optimal and only excludes non-coding genes with no annotation, comprising of 78,899 genes. Subset of such matrix is shown, showing 61 neural progenitor cells (NPCs); subset of those identified from Figure S1A PCA1 threshold. UMAP of this subset is shown, with expression of cell‑type marker genes. These are the same list of genes used in the original analysis; colouring is based upon Z-score correlation with marker genes suggested in the original paper. ",
+  "Non-Coding Subpopulation Cluster" = "Visualisation using the non-coding matrix, used to investigate whether original protein-coding-only subset remained optimal and only excludes non-coding genes with no annotation, comprising of 78,899 genes. Overlay of cell-types used in original organoid analysis (Apical progenitors, basal progenitors, neurons) for the identification of biological identities in the resulting clusters, from the UMAP of neural progenitor cells. Note that group 4 appears to be an outlier and thus was integrated by manually comparing the top 30 differentially expressed genes with known neuronal maturation markers.",
+  "Non-Coding Zone Heatmap" = "Visualisation using the non-coding matrix, used to investigate whether original protein-coding-only subset remained optimal and only excludes non-coding genes with no annotation, comprising of 78,899 genes. Heatmap of resulting clustering from UMAP of neural progenitor cells, where colouring is based upon per-cell Z-score correlation with bulk zone references: CP, iSVZ, oSVZ and VZ. This allows identification of further biological identities to each cluster. "
 )
 
 # Axis Inoformation
@@ -179,27 +179,11 @@ interactive_axis_info <- list(
 
 # Conclusion
 
-conclusion_text <- "This website was built to bring the main parts of our project into one place. 
-Instead of leaving the work spread across separate scripts,
-figures and intermediate files, it gives a clearer way of moving through the original pipeline,
-the alternative pipeline, the interactive plots and the gene-level results.
-That matters for a dataset like this one, where the analysis quickly becomes difficult to follow if everything is only presented as disconnected outputs.
-One of the most useful parts of the site is that it does not just display final figures.
-The original and alternative tabs let the user move through multiple plots in an organised way, 
-while the interactive panel makes it possible to adjust the size of selected plots and inspect the cell assignment table 
-alongside them. The gene query section adds another layer by allowing individual genes to be 
-selected directly from the expression matrix, with a summary table, distribution plot and expression preview shown immediately.
-Together, these parts make the website more than just a gallery of results.
-It works more like a practical front end for the project.
-At the same time, the website also reflects the limits of the work behind it. Not every part of the 
-original study could be reproduced perfectly, and some sections are necessarily based on 
-precomputed objects rather than being generated from scratch inside the app each time. A few 
-outputs were also easier to anchor to the paper than others, especially where the published 
-supplementary data were clearer. 
-Even with those limits, the site still does what it was meant to do: 
-it makes the analyses easier to navigate, lets the user compare the main strands of the project in one 
-place, and gives a more accessible view of the Camp et al. dataset than a folder full of separate plots
-alone"
+conclusion_text <- "This website was built to bring the main parts of our project into one place. Instead of leaving the work spread across separate scripts, figures and intermediate files, it provides a clearer way of moving through and visualising the original pipeline and the alternative pipeline, as well as providing a level of interaction and the ability to make queries on specifc genes. This is important for a dataset like this one, where the analysis quickly becomes difficult to follow if everything is only presented as disconnected outputs. An important feature of the site is that it does not just display final figures; the original and alternative tabs let the user move through multiple plots in an organised way, while the interactive panel makes it possible to adjust the size of selected plots and inspect the cell assignment table alongside them. The gene query section provides another layer of analysis by allowing individual genes to be 
+selected directly from the expression matrix, with a summary table, distribution plot and expression preview shown dynamically.
+Together, these parts make the website more than just a gallery of results. The website, therefore, acts as an accessible front-end for observing both the dataset and its analysis. At the same time, the website also reflects the limits of the work behind it. Not every part of the 
+original study could be reproduced perfectly, and some sections are necessarily based on precomputed objects rather than being generated from scratch inside the app each time. A few outputs were also easier to anchor to the paper than others, especially where the published 
+supplementary data were clearer. Considering these limits, the site still achieves its purpose: it makes the analyses easier to navigate, allows the user to compare the main strands of the project in one place, and gives a more accessible view of the Camp et al. (2015) dataset than a directory of separate plots alone."
 
 # Data files
 
