@@ -179,7 +179,27 @@ interactive_axis_info <- list(
 
 # Conclusion
 
-conclusion_text <- ""
+conclusion_text <- "This website was built to bring the main parts of our project into one place. 
+Instead of leaving the work spread across separate scripts,
+figures and intermediate files, it gives a clearer way of moving through the original pipeline,
+the alternative pipeline, the interactive plots and the gene-level results.
+That matters for a dataset like this one, where the analysis quickly becomes difficult to follow if everything is only presented as disconnected outputs.
+One of the most useful parts of the site is that it does not just display final figures.
+The original and alternative tabs let the user move through multiple plots in an organised way, 
+while the interactive panel makes it possible to adjust the size of selected plots and inspect the cell assignment table 
+alongside them. The gene query section adds another layer by allowing individual genes to be 
+selected directly from the expression matrix, with a summary table, distribution plot and expression preview shown immediately.
+Together, these parts make the website more than just a gallery of results.
+It works more like a practical front end for the project.
+At the same time, the website also reflects the limits of the work behind it. Not every part of the 
+original study could be reproduced perfectly, and some sections are necessarily based on 
+precomputed objects rather than being generated from scratch inside the app each time. A few 
+outputs were also easier to anchor to the paper than others, especially where the published 
+supplementary data were clearer. 
+Even with those limits, the site still does what it was meant to do: 
+it makes the analyses easier to navigate, lets the user compare the main strands of the project in one 
+place, and gives a more accessible view of the Camp et al. dataset than a folder full of separate plots
+alone"
 
 # Data files
 
