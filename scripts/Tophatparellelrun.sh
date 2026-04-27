@@ -1,23 +1,29 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+
+# #############################################################################
+# TopHat2 Batch Alignment (Paired‑End SRR)
+# #############################################################################
+# Purpose: Align paired‑end FASTQ files from download_and_convert_sra.ps1 to the
+#          GRCh38 genome using TopHat2, with parallel job execution.
+# Input:   Paired FASTQ files (*_1.fastq, *_2.fastq) in FASTQ_DIR,
+#          GRCh38 Bowtie2 index at INDEX_BASE.
+# Output:  Alignment results (BAM, logs) per sample in OUT_BASE.
+# #############################################################################
 # TopHat2 batch align (paired-end SRR)
 
-#  Inputs / Outputs
+#  Config and setup
 FASTQ_DIR="/media/sf_GroupA_University2026_Project/SRA/fastq"
 INDEX_BASE="/media/sf_GroupA_University2026_Project/Refrence_genes/GRCh38_index"
 OUT_BASE="/home/randolando/align"
 export WORKDIR="/home/randolando/tmp_tophat"
 
-#  Threads/CPU settings
 TOTAL_CPUS="${TOTAL_CPUS:-60}"
 THREADS_PER_SAMPLE=15
-
-#  Calculates how many samples to run concurrently
 MAX_JOBS=$(( TOTAL_CPUS / THREADS_PER_SAMPLE ))
 if (( MAX_JOBS < 1 )); then MAX_JOBS=1; fi
 
-#  Build a sample list
 SAMPLELIST="$WORKDIR/samples.txt"
 : > "$SAMPLELIST"
 
@@ -55,11 +61,10 @@ run_one () {
    #  Set working env to python 2.7
     source $(conda info --base)/etc/profile.d/conda.sh && conda activate tophat2_py2
 
-  #  Run TopHat2
+  #  Run TopHat2 and save results
   tophat2 -p "$THREADS_PER_SAMPLE" -o "$outdir" "$INDEX_BASE" "$r1" "$r2" \
     > "$outdir/tophat.stdout.log" 2> "$outdir/tophat.stderr.log"
 
-  # Copy results back to persistent storage
   mkdir -p "$OUT_BASE/$srr"
   rsync -a "$outdir/" "$OUT_BASE/$srr/"
 }
@@ -67,8 +72,7 @@ run_one () {
 export -f run_one
 export FASTQ_DIR INDEX_BASE OUT_BASE WORKDIR THREADS_PER_SAMPLE
 
-# Parallel execution across samples
-# Uses xargs parallelism
+# Parallel execution using xargs
 cat "$SAMPLELIST" | xargs -I{} -P "$MAX_JOBS" bash -lc 'run_one "$@"' _ {}
 
 echo "All done. Results in: $OUT_BASE"

@@ -1,22 +1,32 @@
 #!/usr/bin/env bash
 
-#  Inputs/Outputs
+
+# #############################################################################
+# STAR Alignment Pipeline with Shared Genome Memory
+# #############################################################################
+# Purpose: Align paired‑end FASTQ reads to the GRCh38 genome using STAR in
+#          parallel, leveraging shared memory genome loading for efficiency.
+#          Quantification via GeneCounts and TranscriptomeSAM.
+# Input:   Paired FASTQ files (SRR*_1.fastq, SRR*_2.fastq) 
+#          in FASTQ_DIR (from download_and_convert_sra.ps1),
+#          STAR index at STAR_INDEX (from STARindex.sh).
+# Output:  Sorted BAMs, counts, and logs per sample in OUT_BASE.
+# #############################################################################
+
+#  Config and setup
 FASTQ_DIR="/media/sf_GroupA_University2026_Project/SRA/fastq"
 STAR_INDEX="/media/sf_GroupA_University2026_Project/Refrence_genes_Alt"
 OUT_BASE="/media/sf_GroupA_University2026_Project/STARsalmon"
 
-#  SSD working dir (fast)
-WORKDIR="/media/IOtemprun/"
+WORKDIR="/media/IOtemprun/" #  SSD working dir (speed)
 mkdir -p "$WORKDIR"
 mkdir -p "$OUT_BASE"
 
-#  Parallelism settings
 TOTAL_CPUS=${SLURM_CPUS_PER_TASK:-60}
 THREADS_PER_SAMPLE=12
 MAX_JOBS=$(( TOTAL_CPUS / THREADS_PER_SAMPLE ))
 if (( MAX_JOBS < 1 )); then MAX_JOBS=1; fi
 
-#  Build a sample list
 SAMPLELIST="$WORKDIR/samples.txt"
 : > "$SAMPLELIST"
 
@@ -68,10 +78,10 @@ run_one () {
 export -f run_one
 export FASTQ_DIR STAR_INDEX OUT_BASE WORKDIR THREADS_PER_SAMPLE
 
-# Pre-load genome into shared memory
+# Pre-load genome into shared memory (comment to disable)
 STAR --genomeDir "$STAR_INDEX" --genomeLoad LoadAndExit
 
-# Parallel execution across samples
+# Parallel execution using xargs
 cat "$SAMPLELIST" | xargs -I{} -P "$MAX_JOBS" bash -c 'run_one "$@"' _ {}
 
 # Cleanup shared memory genome

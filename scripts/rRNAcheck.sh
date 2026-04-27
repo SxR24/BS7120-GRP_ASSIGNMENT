@@ -1,10 +1,23 @@
-#  Inputs/Outputs
+#!/usr/bin/env bash
+
+
+# #############################################################################
+# rRNA Contamination Check Pipeline
+# #############################################################################
+# Purpose: Align paired‑end FASTQ reads to an rRNA index with Bowtie2 and
+#          report the percentage of rRNA‑mapped reads per sample to identify
+#		   inform not filter based on rRNA quantity.
+# Input:   Paired FASTQ files (*_1.fastq, *_2.fastq) in FASTQ_DIR from 	
+#		   download_and_convert_sra.ps1.
+# Output:  SAM files and a summary file (rRNA_summary.txt) in OUT_DIR.
+# #############################################################################
+
+# Config
 FASTQ_DIR="/media/sf_GroupA_University2026_Project/SRA/fastq2"
 OUT_DIR="/media/sf_GroupA_University2026_Project/rRNA_results/rRNA_results"
-
 mkdir -p "$OUT_DIR"
 
-#  Uses bowtie2 to check rRNA levels
+# Align each sample to rRNA index and quantify
 for fq1 in "$FASTQ_DIR"/*_1.fastq; do
     sample=${fq1%_1.fastq}
     fq2="${sample}_2.fastq"

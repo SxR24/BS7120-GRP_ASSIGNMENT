@@ -1,8 +1,19 @@
 #!/usr/bin/env bash
-
 set -euo pipefail
 
-# Inputs/Outputs
+
+# ############################################################################
+# Salmon Transcript Quantification Pipeline
+# ############################################################################
+# Purpose: Quantify transcript expression from paired‑end FASTQ files using
+#          Salmon in quasi‑mapping mode.
+# Input:   Paired FASTQ files (_R1.fastq, _R2.fastq) in FASTQ_DIR 
+#          (from download_and_convert_sra.ps1),
+#          Salmon index at SALMON_INDEX (Salmonindex.sh output).
+# Output:  Quantification results (quant.sf, logs) per sample in OUT_BASE.
+# ############################################################################
+
+# Config and setup
 FASTQ_DIR="/media/sf_GroupA_University2026_Project/FASTQ"
 SALMON_INDEX="/media/sf_GroupA_University2026_Project/Refrence/salmon_index"
 OUT_BASE="/media/sf_GroupA_University2026_Project/Salmon"
@@ -11,13 +22,11 @@ WORKDIR="/media/IOtemprun/"
 mkdir -p "$WORKDIR"
 mkdir -p "$OUT_BASE"
 
-#  Parallelism settings
 TOTAL_CPUS=${SLURM_CPUS_PER_TASK:-60}
-THREADS_PER_SAMPLE=6
+THREADS_PER_SAMPLE=15
 MAX_JOBS=$(( TOTAL_CPUS / THREADS_PER_SAMPLE ))
 if (( MAX_JOBS < 1 )); then MAX_JOBS=1; fi
 
-#  Build a sample list
 SAMPLELIST="$WORKDIR/samples.txt"
 : > "$SAMPLELIST"
 
