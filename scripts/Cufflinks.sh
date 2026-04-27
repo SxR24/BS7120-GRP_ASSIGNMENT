@@ -3,37 +3,17 @@ set -euo pipefail
 
 # Cufflinks batch processing
 
-# Input/Output paths
-ALIGN_DIR="/home/randolando/tmp_tophat/"           # TopHat2 output directory
+# Input/Output
+ALIGN_DIR="/home/randolando/tmp_tophat/"           
 GTF_FILE="/media/sf_GroupA_University2026_Project/Refrence_genes/gencode.v22.primary_assembly.annotation.gtf"
 WORKDIR="${WORKDIR:-/home/randolando/tmp_cufflinks}"
 
-# CPU allocation
-TOTAL_CPUS="${TOTAL_CPUS:-30}"
+# CPU/Threads allocation
+TOTAL_CPUS="${TOTAL_CPUS:-6}"
 MAX_JOBS=$(( TOTAL_CPUS / 3 ))
 if (( MAX_JOBS < 1 )); then MAX_JOBS=1; fi
 
 mkdir -p "$WORKDIR" "/home/randolando/cufflinks_out"
-
-echo "TOTAL_CPUS:          $TOTAL_CPUS"
-echo "THREADS_PER_SAMPLE:  3"
-echo "MAX_JOBS:            $MAX_JOBS"
-
-# Validate inputs
-if [ ! -d "$ALIGN_DIR" ]; then
-  echo "ERROR: Alignment directory not found: $ALIGN_DIR" >&2
-  exit 1
-fi
-
-if [ ! -f "$GTF_FILE" ]; then
-  echo "ERROR: GTF annotation not found: $GTF_FILE" >&2
-  exit 1
-fi
-
-if ! command -v cufflinks &> /dev/null; then
-  echo "ERROR: cufflinks not found in PATH" >&2
-  exit 1
-fi
 
 SAMPLELIST="$WORKDIR/samples.txt"
 : > "$SAMPLELIST"
@@ -62,7 +42,6 @@ if [ "$num_samples" -eq 0 ]; then
 fi
 
 # worker function
-
 run_cufflinks () {
   local line="$1"
   IFS='|' read -r srr bam <<< "$line"
@@ -70,7 +49,7 @@ run_cufflinks () {
   local outdir="$WORKDIR/$srr"
   mkdir -p "$outdir"
   
-  echo "=== Processing $srr on $(hostname) at $(date) ==="
+  echo "Processing $srr on $(hostname) at $(date)"
   echo "BAM: $bam"
   
    #  Set working env to python 3.6
@@ -105,7 +84,7 @@ export -f run_cufflinks
 export WORKDIR GTF_FILE MULTI_READ_CORRECT FRAG_BIAS_CORRECT
 
 # parallel execution
-# Uses xargs parallelism (Potentially change)
+# Uses xargs parallelism
 
 cat "$SAMPLELIST" | xargs -I{} -P "$MAX_JOBS" bash -c 'run_cufflinks "{}"'
 

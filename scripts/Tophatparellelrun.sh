@@ -9,20 +9,13 @@ INDEX_BASE="/media/sf_GroupA_University2026_Project/Refrence_genes/GRCh38_index"
 OUT_BASE="/home/randolando/align"
 export WORKDIR="/home/randolando/tmp_tophat"
 
-# Default to 32 threads (can be overridden for target machine)
-TOTAL_CPUS="${TOTAL_CPUS:-30}"
+#  Threads/CPU settings
+TOTAL_CPUS="${TOTAL_CPUS:-60}"
+THREADS_PER_SAMPLE=15
 
-#  Threads per TopHat2 process
-THREADS_PER_SAMPLE=6
-
-#  How many samples to run concurrently
+#  Calculates how many samples to run concurrently
 MAX_JOBS=$(( TOTAL_CPUS / THREADS_PER_SAMPLE ))
 if (( MAX_JOBS < 1 )); then MAX_JOBS=1; fi
-
-echo "Using TOTAL_CPUS=$TOTAL_CPUS"
-echo "THREADS_PER_SAMPLE=$THREADS_PER_SAMPLE"
-echo "MAX_JOBS=$MAX_JOBS"
-echo "WORKDIR=$WORKDIR"
 
 #  Build a sample list
 SAMPLELIST="$WORKDIR/samples.txt"
@@ -55,7 +48,7 @@ run_one () {
   local outdir="$WORKDIR/$srr"
   mkdir -p "$outdir"
 
-  echo "=== Running $srr on $(hostname) ==="
+  echo "Running $srr on $(hostname)"
   echo "R1=$r1"
   echo "R2=$r2"
   
@@ -75,7 +68,7 @@ export -f run_one
 export FASTQ_DIR INDEX_BASE OUT_BASE WORKDIR THREADS_PER_SAMPLE
 
 # Parallel execution across samples
-# Uses xargs parallelism (Potentially change)
+# Uses xargs parallelism
 cat "$SAMPLELIST" | xargs -I{} -P "$MAX_JOBS" bash -lc 'run_one "$@"' _ {}
 
 echo "All done. Results in: $OUT_BASE"
